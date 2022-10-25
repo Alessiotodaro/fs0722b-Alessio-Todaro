@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+    table {
+        width: 100%;
+    }
+    table td {
+        border: 1px solid black;
+    }
+   </style>
+    <table>
+       <caption>Utenti iscritti</caption>
+        <thead>
+            <tr>
+            <th>Nome</th>
+            <th>Congome</th>
+            <th>Anni</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mario</td>
+                <td>Rossi</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Franco</td>
+                <td>Valeri</td>
+                <td>34</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Totale</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <hr>
+    <hr>
+    <table>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td colspan="2">9</td>
+        </tr>
+    </table>
+    <hr>
+    <hr>
+    <form>
+        <input type="text" placeholder="Nome">
+        <hr>
+        <input type="password" placeholder="scrivi la tua password">
+        <hr>
+        <input type="email" placeholder="scrivi la tua email">
+        <hr>
+        <input type="number" placeholder="scrivi il tuo numero">
+        <hr>
+        <input id="consenso" type="checkbox">
+        <label for="consenso">
+            Acconsento al trattamento dei dati
+        </label>
+        <hr>
+        <select>
+            <option value="">--</option>
+            <option value="Milano">Milano</option>
+            <option value="Roma">Roma</option>
+            <option value="Napoli">Napoli</option>
+        </select>
+        <hr>
+        <textarea cols="30" rows="10"></textarea>
+        <hr>
+        
+        <input id="m" type="radio" name="gender" value="m">
+        <input id="f" type="radio" name="gender" value="f">
+        <input id="x" type="radio" name="gender" value="altro">
+        <button>Invia</button>
+    </form>
+</body>
+</html>
