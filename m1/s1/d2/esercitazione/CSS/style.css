@@ -1,0 +1,76 @@
+body {
+    background-color:burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+   
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    margin-top: 20px;
+}
+header a{
+    margin-top: 1.5em;
+    padding-right: 8.6em;
+    text-decoration: none;
+    color: black;
+   
+}
+header a:hover {
+color: red;
+}
+main h1 {
+    display: flex;
+    justify-content: center;
+}
+main h2 {
+    margin: 0.1em;
+    display: flex;
+    justify-content: center;
+}
+main h3 {
+    display: flex;
+    justify-content: center;
+}
+
+main cite {
+    display: flex;
+    justify-content: center;
+}
+main iframe {
+    margin-top: 20px;
+}
+dl {
+    display: flex;
+    justify-content: center;
+    
+}
+.correlati {
+    display: flex;
+    margin: 10px;
+    text-align: left;
+    flex-direction: column;
+}
+.correlati a {
+    text-decoration: none;
+    color: black;
+}
+.correlati a:hover{
+    color: red;
+}
+footer h5{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+}
