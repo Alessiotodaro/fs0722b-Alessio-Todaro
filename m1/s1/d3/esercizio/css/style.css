@@ -1,0 +1,123 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header {
+    position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px ;
+	margin: 0 0px;
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.300);
+	background-color: white;
+}
+.logofixed img{
+    width: 250px;
+}
+.secondheader h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 0.8em;
+    color: green;
+    background-color: rgba(244, 255, 44, 0.2);
+    line-height: 3em;
+    border-top: 3px solid rgb(151, 151, 43);
+}
+.secondmain {
+    margin-top: 40px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.Titoli h1, p {
+    text-align: center;
+}
+.Titoli h1 {
+    font-size: 2em;
+    margin-bottom: 0.1em;
+}
+.Titoli p {
+    margin-top: 0.2em;
+    margin-bottom: 2em;
+}
+.video-ricetta {
+    text-align: center;
+}
+.video-ricetta iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 400px;
+    border-radius: 2%;
+}
+.video-ricetta h6 {
+    margin: 20px;
+    color: rgb(79, 79, 79, 0.6);
+    font-size: 0.8em;
+}
+.feat {
+    border-left: 2px solid yellow;
+}
+.feat h3, h4 {
+    margin: 0.1em;
+    margin-left: 1em;
+}
+.feat h3 {
+    margin-left: 16px;
+}
+.feat a {
+    text-decoration: none;
+    color: black;
+}
+.feat a:hover {
+    color: green;
+}
+.feat span {
+    color: orange;
+}
+.Ingredienti h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.181);
+    line-height: 3.5em;
+}
+.Ingredienti li {
+    margin-bottom: 1.5em;
+}
+.Topping li {
+    margin-bottom: 1.5em;
+
+}
+.Metodo h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.181);
+    line-height: 3.5em;   
+}
+.Metodo li {
+    
+}
+footer h5 {
+    text-align: center;
+}
+footer h5 a {
+    text-decoration: none;
+    color: black;
+}
+footer h5 a:hover{
+    color: green;
+}
+.copertina {
+    mask-image: (url(../assets/focaccia.png));
+}
+.torna-su {
+  position: fixed;
+  bottom: 20px;      
+  margin-left:1380px; 
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: rgb(221, 226, 71);
+  background: rgba(66, 175, 64, 0.77);
+  border-radius: 100px;
+  
+}
