@@ -1,0 +1,21 @@
+@font-face {
+    font-family: FontPersonale;
+    src: url(../font/Roboto-Black.ttf) format('truetype');
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#p1 {
+    font-size: 16px;
+    
+}
+#p2 {
+    font-size: 0.8rem;
+}
+#p3 {
+    font-size: 20px;
+    font-family: FontPersonale;
+}
+#p3 span {
+    font-size: 2em;
+}
