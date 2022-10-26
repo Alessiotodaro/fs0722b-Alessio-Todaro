@@ -1,0 +1,13 @@
+/* commento in css*/
+div {
+    color: red;
+}
+.colore-blu {
+    color: blue;
+}
+.bordo-sotto {
+    border-bottom: 1px solid #000;
+}
+#sfondo-verde {
+    background-color: green;
+}
