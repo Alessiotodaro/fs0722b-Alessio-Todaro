@@ -1,0 +1,11 @@
+/* non si possono modificare larghezza e altezza di un elemento linea (<spa>) a differenza di un <div>*/
+.quadrato {
+    overflow: hidden; /*serve per nascondere tutto quello che va fuori dal bordo*/
+}
+.quadrato2 {
+    overflow: scroll; /* permette la visualizzazione degli elementi in eccesso tramite scorrimento*/
+    overflow-y: auto; /* solo se necessario fa visualizzare la barra di scorrimento sull'asse y (altezza). Solo se c'è abbastanza contenuto*/
+    box-sizing: border-box; /* maggiore controllo dei layout, padding interno*/
+}
+/* margin: auto per centrare
+margin: left per portare l'elemento a destra. sistema adattivo

@@ -46,6 +46,7 @@ header {
 .video-ricetta {
     text-align: center;
 }
+
 .video-ricetta iframe {
     display: block;
     margin-left: auto;
@@ -101,9 +102,6 @@ footer h5 a {
 }
 footer h5 a:hover{
     color: green;
-}
-.copertina {
-    mask-image: (url(../assets/focaccia.png));
 }
 .torna-su {
   position: fixed;

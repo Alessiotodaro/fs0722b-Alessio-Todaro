@@ -1,0 +1,218 @@
+/* IMPOSTAZIONI GENERALI */
+@font-face {
+    font-family: 'Font-fornito';
+    src: url(../webfonts/fa-regular-400.woff2) format(woff2);
+    src: url(../webfonts/fa-regular-400.woff) format(woff);
+}
+@font-face{
+    font-family: 'Font-fornito-bold';
+    src: url(../webfonts/fa-solid-900.woff2) format(woff2);
+    src: url(../webfonts/fa-solid-900.woff) format(woff);
+}
+
+body {
+    background-image: url(../img/sfondo.png);
+    font-family: 'Font-fornito', sans-serif;
+    background-position: center center;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(0deg, rgba(45,102,253,1) 0%, rgba(145,222,255,1) 100%);
+    box-shadow: 8px 8px 6px -6px rgba(0, 0, 0, 0.500);
+    margin: auto;
+    max-width: 97%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.logo {
+    padding: 20px 20px 10px;
+    text-align: center;
+}
+.logo img {
+    max-width: 100%;
+}
+header h2{
+    text-align: center;
+    margin:11px;
+    font-size: 1.5em;
+    margin-top: 3px;
+    margin-bottom: 0;
+    color: white;
+    max-width: 100%;
+}
+header ul{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 15px;
+    margin: 0;
+    margin-top: 15px;
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+header ul li a:hover{
+    color: #ee2e5c;
+}
+/* MAIN */
+main {
+    background-color: white;
+    box-shadow: 8px 8px 6px -6px rgba(0, 0, 0, 0.500);
+    margin: auto;
+    width: 97%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.second-main {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    /*scusami per il display flex, ho passato ore a non capire come mai, nei formati piccoli per telefono, le cose non si centrassero, ho provato di tutto. Anche per questo non ho inserito alcuni dettagli come bold, strong e altro nei testi.*/
+}
+.testi {
+    width: 95%;
+    line-height:2em;
+}
+.testi h1 {
+    font-size: 2.5em;
+    font-family: 'Font-fornito-bold', sans-serif;
+    margin-bottom: 1px;
+    margin-top: 12px;
+    line-height: 1.3em;
+}
+.testi h3 {
+    color: gray;
+    margin-bottom: 15px;
+}
+.testi p {
+    margin-bottom: 5px;
+}
+.testi ul li {
+    margin-left: 40px;
+}
+.testi ol {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.video iframe{
+    border-radius: 5px;
+}
+.tag {
+    background-color:rgb(220, 220, 220);
+    border: 1px solid gray ;
+    border-radius: 5px;
+   
+}
+
+/* TABELLE */
+.tabella {
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    min-width: 90%;
+}
+.tabella th {
+    background-color: rgb(78, 90, 255);
+    color: white;
+}
+.tabella  th, td {
+    padding: 20px;
+    text-align: right;
+  }
+.tabella tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*Video*/
+.video iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+/* FORM */
+.Novita {
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+}
+.Novita-pad {
+    padding: 10px;
+}
+.Novita h2 {
+    font-size: 2em;
+    margin-top: 20px;
+
+}
+.Novita button, input {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+.Novita button {
+    background-color:rgb(78, 90, 255);
+    color: white;
+    border: none;
+}
+.Novita input {
+    border: rgba(0, 0, 0, 0.00);
+    border-bottom: 3px solid black ;
+    border-style: dashed;
+    max-width: 85%;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.articoli-correlati h2{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.articoli {
+    margin-top: 10px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+}
+.articoli div {
+    padding: 10px;
+}
+.articoli div h6 {
+    text-align: right;
+}
+.articoli div h5 a {
+    text-decoration: none;
+    color: green;
+}
+.articoli div h5 a:hover {
+    color: blueviolet;
+}
+
+/* FOOTER */
+footer {
+    background-color: white;
+    box-shadow: 8px 8px 6px -6px rgba(0, 0, 0, 0.500);
+    border-radius: 5px;
+    margin: auto;
+    max-width: 97%;
+    margin-top: 20px;  
+    background: linear-gradient(0deg, rgba(15,34,84,1) 0%, rgba(43,28,134,1) 100%);
+    margin-bottom: 20px; 
+}
+.footer {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.footer h6 {
+    margin-bottom: 10px;
+}
+.footer a {
+    color: violet;
+    text-decoration: none;
+}
