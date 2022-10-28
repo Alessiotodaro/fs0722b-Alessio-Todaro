@@ -1,0 +1,178 @@
+/*Impostazioni Generali*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*Impostazione Header*/
+header {
+    position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px ;
+	margin: 0 0px;
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.300);
+	background-color: black;
+}
+.logofixed img{
+    width: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/*Fine Header*/
+
+/*Impostazioni Main*/
+.secondheader {
+    margin-top: 10%;
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 35px;
+}
+.secondheader h1 {
+    font-size: 3rem;
+    line-height: 50px;
+    padding-top: 40px;
+}
+.secondheader a {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.secondheader p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.partecentrale {
+    display: block;
+    margin-top: 40px;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.partecentrale div {
+    width: 100%;
+}
+.partecentrale div img {
+    border-radius: 50%;
+    max-width: 80%;  
+    margin-bottom: 20px; 
+}
+.partecentrale h3 {
+    margin-bottom: 5px;
+}
+.partecentrale p {
+    margin-bottom: 30px;
+}
+/*Sezione garantisce*/
+.Garantisce {
+    background-color: #e22d0e;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.Garantisce h2 {
+    color: white;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+
+
+
+.Titoli h1, p {
+    text-align: center;
+}
+.Titoli h1 {
+    font-size: 2em;
+    margin-bottom: 0.1em;
+}
+.Titoli p {
+    margin-top: 0.2em;
+    margin-bottom: 2em;
+}
+.video-ricetta {
+    text-align: center;
+}
+
+.video-ricetta iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+}
+.video-ricetta h6 {
+    margin: 20px;
+    color: rgb(79, 79, 79, 0.6);
+    font-size: 0.8em;
+}
+.feat {
+    border-left: 2px solid yellow;
+}
+.feat h3, h4 {
+    margin: 0.1em;
+    margin-left: 1em;
+}
+.feat h3 {
+    margin-left: 16px;
+}
+.feat a {
+    text-decoration: none;
+    color: black;
+}
+.feat a:hover {
+    color: green;
+}
+.feat span {
+    color: orange;
+}
+.Ingredienti h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.181);
+    line-height: 3.5em;
+}
+.Ingredienti li {
+    margin-bottom: 1.5em;
+}
+.Topping li {
+    margin-bottom: 1.5em;
+
+}
+.Metodo h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.181);
+    line-height: 3.5em;   
+}
+footer h5 {
+    text-align: center;
+}
+footer h5 a {
+    text-decoration: none;
+    color: black;
+}
+footer h5 a:hover{
+    color: green;
+}
+.torna-su {
+  position: fixed;
+  bottom: 20px;      
+  margin-left:1380px; 
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: rgb(221, 226, 71);
+  background: rgba(66, 175, 64, 0.77);
+  border-radius: 100px;
+  
+}
