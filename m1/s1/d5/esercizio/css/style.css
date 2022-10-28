@@ -1,6 +1,8 @@
 /*Impostazioni Generali*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     width: 100%;
     box-sizing: border-box;
@@ -11,7 +13,7 @@ header {
     position: fixed;
 	left: 0;
 	top: 0;
-	width: 100%;
+    width: 100%;
 	text-align: center;
 	padding: 10px ;
 	margin: 0 0px;
@@ -27,7 +29,7 @@ header {
 
 /*Impostazioni Main*/
 .secondheader {
-    margin-top: 10%;
+    margin-top: 15%;
     background-image: url(../images/banner.jpg);
     background-position: center center;
     text-align: center;
@@ -35,6 +37,8 @@ header {
     padding-bottom: 35px;
 }
 .secondheader h1 {
+    margin-left: auto;
+    margin-right: auto;
     font-size: 3rem;
     line-height: 50px;
     padding-top: 40px;
@@ -74,105 +78,89 @@ header {
 .partecentrale p {
     margin-bottom: 30px;
 }
+/*Fine*/
+
 /*Sezione garantisce*/
 .Garantisce {
-    background-color: #e22d0e;
+    background-color: rgb(226, 45, 14);
     width: 100%;
     color: white;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-top: 50px;
 }
 .Garantisce h2 {
     color: white;
     font-size: 1.5em;
     padding: 15px;
+    margin-bottom: 20px;
 }
+.Garantisce p {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.Garantisce div p {
+    font-size: 0.8em;
+}
+/*Fine*/
 
-
-
-
-.Titoli h1, p {
+/*Impostazioni Footer*/
+.articoli {
     text-align: center;
 }
-.Titoli h1 {
-    font-size: 2em;
-    margin-bottom: 0.1em;
+.articoli a {
+    text-decoration: none;
+    color: black;
 }
-.Titoli p {
-    margin-top: 0.2em;
-    margin-bottom: 2em;
-}
-.video-ricetta {
-    text-align: center;
+.articoli a p {
+    font-size: 0.8em;
+    padding: 10px;
 }
 
-.video-ricetta iframe {
+.articoli div {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 2%;
+    border: 1px solid #dee1e3;
+    width: 80%;
+    box-shadow: 2px 2px 4px rgba(226, 45, 14,0.3);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
 }
-.video-ricetta h6 {
-    margin: 20px;
-    color: rgb(79, 79, 79, 0.6);
-    font-size: 0.8em;
+.articoli div img {
+    width: 100%;
 }
-.feat {
-    border-left: 2px solid yellow;
+.footer {
+    background-color: #25a2c3;
+    text-align: center;
+    padding: 20px;
 }
-.feat h3, h4 {
-    margin: 0.1em;
-    margin-left: 1em;
-}
-.feat h3 {
-    margin-left: 16px;
-}
-.feat a {
-    text-decoration: none;
-    color: black;
-}
-.feat a:hover {
-    color: green;
-}
-.feat span {
-    color: orange;
-}
-.Ingredienti h2 {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.181);
-    line-height: 3.5em;
-}
-.Ingredienti li {
-    margin-bottom: 1.5em;
-}
-.Topping li {
-    margin-bottom: 1.5em;
+.footer h3{
+    color: white;
+    font-size: 1.3em;
 
 }
-.Metodo h2 {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.181);
-    line-height: 3.5em;   
+.footer p {
+    font-size: 0.7em;
+    color: #c8e7f0;
 }
-footer h5 {
-    text-align: center;
+.footer p a {
+    color: #c8e7f0;
 }
-footer h5 a {
-    text-decoration: none;
-    color: black;
+.footer i {
+    margin-right: 4px;
 }
-footer h5 a:hover{
-    color: green;
-}
+/*Fine*/
+
 .torna-su {
   position: fixed;
   bottom: 20px;      
-  margin-left:1380px; 
+  margin-left:90%; 
   text-decoration: none;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  color: rgb(221, 226, 71);
-  background: rgba(66, 175, 64, 0.77);
-  border-radius: 100px;
-  
+  padding: 5px;
+  color: white;
+  background-color: rgb(128, 128, 128, 0.6);
+  border-radius: 10px;
+  font-size: 0.5em;
 }
