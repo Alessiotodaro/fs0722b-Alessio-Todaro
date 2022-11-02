@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let obj = {
+            proprietà:'valore'
+        }
+
+        let margherita = {
+            gusto:'Margherita',
+            prezzo: 5,
+            aggiunte: [
+                {
+                    nome:'Mozzarella',
+                    prezzo:1
+                },
+                {
+                    nome:'Doppia pasta',
+                    prezzo:2
+                },
+                {
+                    nome:'Mozzarella di bufala',
+                    prezzo:1
+                },
+            ],
+            mostraPrezzo: function(){//metodo
+                console.log('Il prezzo della pizza margherita è pari a 5€')
+            }
+        }
+
+        console.log(margherita.prezzo)
+        console.log(margherita.aggiunte[2])
+        margherita.mostraPrezzo()
+
+    </script>
+</body>
+</html>

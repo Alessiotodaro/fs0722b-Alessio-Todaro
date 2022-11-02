@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input id="testo" type="number">
+    <button onclick="elabora()">Controlla se è pari</button>
+
+    <script>
+
+        function elabora(){
+            let input = document.getElementById("testo");
+            
+            let result = input.value % 2 == 0;//ricevo true se pari, false se dispari
+
+            let messaggio = result ? 'è pari' : 'è dispari';
+
+            alert(messaggio);
+
+            input.value = '';//svuota il campo
+            
+            /*
+            if(result){
+                alert('è pari');
+            }else{
+                alert('è dispari');
+            }*/
+            
+        }
+   
+
+    </script>
+
+</body>
+</html>

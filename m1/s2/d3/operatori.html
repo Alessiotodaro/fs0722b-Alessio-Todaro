@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let testo = 'Ciao';
+        testo = 'Benvenuto';//il vecchio valore è stato eliminato
+
+        testo += ' Mario';
+        console.log(testo);
+
+        
+        let a = 2;
+        a += 2;//2 + 2;
+        console.log(a);//4
+        a -= 2;//4 - 2;
+        console.log(a);//2
+        a *= 2;//2 * 2;
+        console.log(a);//4
+        a /= 2;//2 / 2;
+        console.log(a);//2
+        
+        a++;//incremento il valore di 1
+        console.log(a);//3
+        a--;//decremento il valore di 1     
+        console.log(a);//2
+
+        //operatori di confronto
+
+        let b = 10;
+        console.log(b < 10);//false
+        console.log(b > 10);//false
+        console.log(b >= 10);//true
+        console.log(b <= 10);//true
+
+        console.log(b == 10);//true
+        console.log(b != 10);//false
+        
+        console.log(b == '10');//true perchè il valore della stringa se convertito in numero è 10
+        console.log(b === '10');//false perchè non avviene una conversione, deve essere uguale anche il tipo di dato
+        console.log(b === 10);//true, valore e tipo di dato uguali
+
+        console.log(b !== '10');//true se il tipo di dato o il tipo di valore sono diversi
+        console.log(b !== 10);//false perchè il valore e il tipo di dato sono uguali
+
+
+        console.log(!(b == 10))
+        console.log(!true)
+
+        //operatore ternario
+        
+        let anni = 3;
+        let consenso = (anni >= 18) ? 'Puoi accedere' : 'Accesso negato';
+        console.log(consenso)
+        
+
+    </script>
+</body>
+</html>

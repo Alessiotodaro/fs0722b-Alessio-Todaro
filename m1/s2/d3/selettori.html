@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="test"></div>
+    <div class="prova"></div>
+    <div class="prova"></div>
+    <div class="prova"></div>
+    <div></div>
+
+    <script>
+
+        //selettori classici
+        document.getElementById('test').innerHTML = 'testo inserito da js';//un solo elemento
+        
+        let elementiProva = document.getElementsByClassName('prova');//una lista di elementi
+        elementiProva[0].innerHTML = 'ciao';
+        elementiProva[1].innerHTML = 'ciao';
+        elementiProva[2].innerHTML = 'ciao';
+        
+        let elementiDiv = document.getElementsByTagName('div');//una lista di elementi
+
+    </script>
+</body>
+</html>
