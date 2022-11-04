@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //a sinistra del . è sempre un ogetto (document. è un oggetto!)
+        let pizza = {
+            gusto: 'Margherita',
+            prezzo: 5
+        };
+        //console.log(pizza), è errore in quanto è possibile leggere solo le proprietà del set "pizza" e bisogna specificare quale
+        console.log(pizza.gusto)//così è giusto
+        //sovra-scrittura di un proprietà
+        pizza.gusto = 'Diavola';//adesso il gusto è Diavola
+        
+        function Pizza(g,p){
+            this.gusto = g;
+            this.prezzo = p;
+            this.mostraPrezzo = function(valuta = '£'){ //con valuta indico un valore di default(nel caso in cui non venga specificata). Le funzioni all'interno di funzioni si chiamano "metodo"
+                console.log(`Il prezzo della pizza ${this.gusto} è di ${this.prezzo}${valuta}`)
+                
+            }
+        } 
+       
+            let margherita = new Pizza('Margherita', 5);
+            let diavola = new Pizza('Diavola', 1);
+            let pistacchiosa = new Pizza('Pistacchiosa', 20);
+            console.log(pistacchiosa);
+            
+         margherita.mostraPrezzo()
+         diavola.mostraPrezzo()
+         pistacchiosa.mostraPrezzo()
+        
+    </script>
+</body>
+</html>
