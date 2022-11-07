@@ -1,0 +1,42 @@
+.calcolatrice {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 300px;
+    margin: 0 auto;    
+    background-image: url(https://img.freepik.com/free-photo/dark-concrete-texture-background_24837-397.jpg?w=2000);
+    box-shadow: 5px 5px 3px rgb(0, 0, 0, 0.5);
+}
+.interno {
+    text-align: center;
+}
+.display {
+    text-align: center;
+    background: orange;
+    color: black;
+    font-size: 2em;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;            
+}
+.tasto {
+    background-color: orange ;
+    color: black;
+    font-size: 22pt;
+    border: none;
+    margin: 5px 4px;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+}
+.tasto:hover{
+    background-color: brown;
+}
+.uguale {
+    width: 225px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

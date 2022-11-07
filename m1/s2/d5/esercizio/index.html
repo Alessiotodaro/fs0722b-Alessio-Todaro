@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcolatrice</title>
+</head>
+<body>
+ <div class="calcolatrice">
+  <div class="interno">
+    <div class="content">
+        <input type="text" id="operazioni"class="display" readonly="readonly">
+    </div>
+    <div>
+            <div>
+                <input type="submit" id="7" value="7" onclick="n(this.id)" class="tasto">
+                <input type="submit" id="8" value="8" onclick="n(this.id)" class="tasto">
+                <input type="submit" id="9" value="9" onclick="n(this.id)" class="tasto">
+                <input type="submit" id="/" value="/" onclick="o(this.id)" class="tasto">
+            </div>
+            <div>
+                <input type="submit" id="4" value="4" onclick="n(this.id)" class="tasto">
+                <input type="submit" id="5" value="5" onclick="n(this.id)" class="tasto">
+                <input type="submit" id="6" value="6" onclick="n(this.id)" class="tasto">
+                <input type="submit" id="*" value="X" onclick="o(this.id)" class="tasto">
+            </div>
+            <div>
+                <input type="submit" id="1" value="1" onclick="n(this.id)" class="tasto">
+                <input type="submit" id="2" value="2" onclick="n(this.id)" class="tasto">
+                <input type="submit" id="3" value="3" onclick="n(this.id)" class="tasto">
+                <input type="submit" id="-" value="-" onclick="o(this.id)" class="tasto">
+            </div>
+                <input type="submit" value="C" onclick="cancella()" class="tasto">
+                <input type="submit" id="0" value="0" onclick="n(this.id)" class="tasto">
+                <input type="submit" id="." value="." onclick="o(this.id)" class="tasto">
+                <input type="submit" id="+" value="+" onclick="o(this.id)" class="tasto">
+            </div>
+                <button value="=" onclick="operazione()" class="uguale tasto">=</button>
+            </div>
+            
+    </div>
+  </div>
+ </div>  
+    <script src="index.js"></script>
+</body>
+</html> 
