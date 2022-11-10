@@ -102,7 +102,7 @@ console.log(check3and7(9))
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
-function reverseString(str){
+/*function reverseString(str){
     let strReversed = []; //Serve a contenere i caratteri di str in ordine inverso
     let rev = ''; //conterrà la stringa invertita
     for (let i = 0; i < str.length ; i++){
@@ -111,7 +111,7 @@ function reverseString(str){
     }return rev 
 }
 console.log(reverseString('God'))
-/* SCRIVI QUI LA TUA RISPOSTA */
+*/
 
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
