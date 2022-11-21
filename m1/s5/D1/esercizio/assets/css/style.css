@@ -182,7 +182,7 @@ footer {
 footer a {
     color: fuchsia;
 }
-@media screen and (min-width:768px, max-width:1200px) {
+@media screen and (min-width:768px) {
     header nav ul {
     justify-content: center;
     }
@@ -264,14 +264,17 @@ footer a {
         
     }
     .flex{
-        display: inline-flex;
-        justify-items: center;
+        display:flex;
+        justify-content: center;
         border-radius: 15px;
+        margin: 0 auto;
+        align-content: center;
     }
     .flex iframe{
         width: 550px;
         height: 250px;
-        display: block;
+        display: flex;
+        margin-top: 25px;
     }
     .flex section{
         width: 550px;
@@ -283,7 +286,23 @@ footer a {
         text-align: left;
     }
     .flex section input{
-        width: 400px;
+        width: 380px;
         height: 40px;
+    }
+    .flex section button{
+        height: 40px;
+        width: 100px;
+    }
+    aside div{
+        display: inline-block;
+        width: 33%;
+        justify-content: center;
+        height: 100px;
+    }
+    aside div p{
+        margin-bottom: 20px;
+    }
+    footer p{
+        margin-bottom: 20px;
     }
 }
