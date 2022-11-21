@@ -183,12 +183,17 @@ footer a {
     color: fuchsia;
 }
 @media screen and (min-width:768px) {
+    /*Header*/
+
     header nav ul {
     justify-content: center;
     }
     header nav ul li {
     margin: 0 10px 0 10px;
     }
+    
+    /*Main*/
+
     article{
         padding: 15px;
         font-size: 1.4em;
@@ -213,12 +218,17 @@ footer a {
         height: 50px;
         width: 120px
     }
+    
+    /*Footer*/
+    
     footer address {
         padding: 0 40px 0 40px;
         width: 100%;
     }
 }
 @media screen and (min-width:1200px) {
+    /*Header*/
+
     header{
         display: flex;
         justify-content: space-between;
@@ -243,6 +253,9 @@ footer a {
         padding: 0px 0px 0px 30px;
         
     }
+    
+    /*Main*/
+
     article{
         font-size: 1.4em;
         padding: 15px;
@@ -272,13 +285,13 @@ footer a {
     .flex iframe{
         width: 700px;
         height: 250px;
-        display: flex;
+        display: inline-block;
         margin:auto;
     }
     .flex section{
         width: 700px;
         height: 250px; 
-        display: block; 
+        display: inline-block; 
         text-align: center;
         border-radius: 15px;
         margin:auto;
@@ -304,6 +317,9 @@ footer a {
     aside div p{
         margin-bottom: 20px;
     }
+    
+    /*Footer*/
+
     footer p{
         margin-bottom: 20px;
     }
