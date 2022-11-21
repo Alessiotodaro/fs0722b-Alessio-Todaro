@@ -193,7 +193,6 @@ footer a {
     }
     
     /*Main*/
-
     article{
         padding: 15px;
         font-size: 1.4em;
@@ -206,6 +205,13 @@ footer a {
     table{
         margin: 50px auto 50px auto;
         
+    }
+    .flex{
+        border-radius: 15px;
+    }
+    .flex h2{
+        background-color: rgb(169, 169, 169);
+        border-radius: 10px;
     }
     input{
         width: 460px;
@@ -227,6 +233,11 @@ footer a {
     }
 }
 @media screen and (min-width:1200px) {
+    /*Body*/
+
+    body{
+        padding:15px 40px ;
+    }
     /*Header*/
 
     header{
@@ -255,7 +266,7 @@ footer a {
     }
     
     /*Main*/
-
+   
     article{
         font-size: 1.4em;
         padding: 15px;
@@ -296,22 +307,27 @@ footer a {
         border-radius: 15px;
         margin:auto;
     }
+    .flex section h2 {
+        background-color: rgb(169, 169, 169);
+        border-radius: 10px;
+    }
     .flex section p{
         text-align: left;
         margin-bottom: 0;
     }
     .flex section input{
-        width: 380px;
+        width: 300px;
         height: 40px;
+        border-radius: 5px;
     }
     .flex section button{
         height: 40px;
-        width: 100px;
+        width: 80px;
+        border-radius: 5px;
     }
     aside div{
         display: inline-block;
         width: 33%;
-        justify-content: center;
         height: 100px;
     }
     aside div p{
@@ -322,5 +338,17 @@ footer a {
 
     footer p{
         margin-bottom: 20px;
+    }
+}
+@media only print{
+    img,iframe,header,footer,.flex,aside,.fas.fa-pen-square, .fas.fa-clock{
+        display: none;
+        color: #ffffff00;
+    }
+    strong,a,th{
+        color: black;
+    }
+    tbody tr:last-of-type {
+        border-bottom: 1px solid black;
     }
 }
