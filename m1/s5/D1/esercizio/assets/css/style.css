@@ -213,4 +213,11 @@ footer a {
         height: 50px;
         width: 120px
     }
+    footer address {
+        padding: 0 40px 0 40px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:1200px) {
+    
 }
