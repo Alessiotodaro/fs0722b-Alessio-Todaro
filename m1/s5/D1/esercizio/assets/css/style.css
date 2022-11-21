@@ -28,6 +28,8 @@ header div img {
 }
 header nav ul {
     margin: 0;
+    display: flex;
+    justify-content: space-around; 
 }
 header nav li {
     list-style: none;
@@ -173,8 +175,11 @@ footer {
     color: #f0f0f0;
     padding: 1em;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    line-height: 1.7em;
 }
 footer a {
     color: fuchsia;
+}
+@media screen and (min-width:768px) {
 }
