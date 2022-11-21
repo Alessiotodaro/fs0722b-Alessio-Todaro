@@ -30,6 +30,7 @@ header nav ul {
     margin: 0;
     display: flex;
     justify-content: space-around; 
+    margin-top: 25px;
 }
 header nav li {
     list-style: none;
@@ -100,6 +101,9 @@ iframe {
     height: auto;
     margin-bottom: 2em;
     border-radius: 20px;
+}
+article h2{
+    font-weight: bold;
 }
 
 /* TABELLE */
@@ -182,4 +186,11 @@ footer a {
     color: fuchsia;
 }
 @media screen and (min-width:768px) {
+header nav ul {
+    justify-content: center;
+}
+header nav ul li {
+    margin: 0 10px 0 10px;
+    
+}
 }
