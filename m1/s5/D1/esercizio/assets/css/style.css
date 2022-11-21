@@ -102,9 +102,6 @@ iframe {
     margin-bottom: 2em;
     border-radius: 20px;
 }
-article h2{
-    font-weight: bold;
-}
 
 /* TABELLE */
 table {
@@ -186,11 +183,34 @@ footer a {
     color: fuchsia;
 }
 @media screen and (min-width:768px) {
-header nav ul {
+    header nav ul {
     justify-content: center;
-}
-header nav ul li {
+    }
+    header nav ul li {
     margin: 0 10px 0 10px;
+    }
+    article{
+        padding: 15px;
+        font-size: 1.4em;
+    }
+    article h2{
+        font-weight: bold;
+        font-size: 1.1em;
+    }
     
-}
+    table{
+        margin: 50px auto 50px auto;
+        
+    }
+    input{
+        width: 460px;
+        height: 50px;
+    }
+    input::placeholder{
+        padding: 15px;
+    }
+    button{
+        height: 50px;
+        width: 120px
+    }
 }
