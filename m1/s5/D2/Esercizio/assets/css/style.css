@@ -119,13 +119,11 @@ main {
   border-radius: 5px;
   padding: 5px;
   box-shadow: 3px 2px 2px 1px rgb(0, 0, 0, 0.5);
-  
-
 }
 .button_1{
   position: fixed;
   right: 0;
-  bottom: 70px;
+  top: 240px;
   z-index: 90;
 }
 .button_1 i{
@@ -140,7 +138,7 @@ main {
 .button_2{
   position: fixed;
   right: 0;
-  bottom: 130px;
+  top: 300px;
   z-index: 90;
 }
 .button_2 i{
@@ -195,7 +193,12 @@ blockquote {
 h1 + p {
   color: #a0a0a0;
 }
-
+aside div span{
+  position: absolute;
+  font-size: 4em;
+  right: 0;
+  
+}
 @media screen and (max-width: 499px) {
   p,
   ul,
@@ -251,20 +254,12 @@ h1 + p {
     width: 500px;
     
 }
-.button_2{
-  position: fixed;
-  right: 0;
-  bottom: 130px;
-  z-index: 90;
+.button_1{
+  bottom: 510px;
+  
 }
-.button_2 i{
-  font-size: 2.5em;
-  color:blue;
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 5px;
-  box-shadow: 3px 2px 2px 1px rgb(0, 0, 0, 0.5);
+.button_2{
+  bottom: 570px;
 }
 }
 
@@ -283,7 +278,18 @@ h1 + p {
     left: 380px;
     top: -50px;
     width: 600px;
-    
+}
+.button_1{
+  position: fixed;
+  right: 0;
+  top: 95px;
+  z-index: 90;
+}
+.button_2{
+  position: fixed;
+  right: 0;
+  top: 160px;
+  z-index: 90;
 }
 }
 .imgLeft {
