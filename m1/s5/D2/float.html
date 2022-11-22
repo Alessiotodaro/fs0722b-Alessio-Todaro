@@ -1,38 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Float</title>
     <style>
-        body {margin: 0;}
-        .conttainer {width: 1200px; margin: 0 auto;border: 1 px solid black;}
-        header {background-color: aquamarine; text-align: center;}
-        header h1 {color: white;font-family: Impact, Haettenschweiler, 'Arial Narrow Light', sans-serif;margin:0;}
-        nav {background-color: blueviolet;}
-        nav ul {margin: 0; padding: 0;list-style-type: none;}
-        nav li {display: inline/*-block*/;border-right: 1px solid white;/*width: 200px;*/padding: 0 80px;}
-        nav li:last-child {border-right:none;}
-        nav a {color: white;text-decoration: none;}
-        nav a:hover{background-color: white; color:blueviolet;}
-    
+      /*Impostazioni Generali*/
+      body {
+        margin: 0;
+      }
+      .conttainer {
+        width: 1200px;
+        margin: 0 auto;
+        border: 1 px solid black;
+      }
+      /*Header*/
+      header {
+        background-color: aquamarine;
+        text-align: center;
+      }
+      header h1 {
+        color: white;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Light", sans-serif;
+        margin: 0;
+      }
+      nav {
+        background-color: blueviolet;
+        height: 20px;
+      }
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      nav li {
+        /*display: inline/*-block;*/
+        float: left;
+        border-right: 1px solid white; /*width: 200px;*/
+        padding: 0 90px;
+      }
+      /* Float rompe la caratteristica di display:block e fa fluttuare gli elementi a sx e dx
+        i tag a cui assegnamo float NON contribuiscono all'altezza del contenitore, dobbiamo quindi indicare un'altezza*/
+      nav li:last-child {
+        border-right: none;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        line-height: 20px;
+      }
+      nav a:hover {
+        background-color: white;
+        color: blueviolet;
+      }
+      /* main */
+      aside {
+        float:left;
+        width: 300px;
+      }
+      /*Footer*/
+      footer {background-color:blueviolet;  color: #fff; text-align: center;clear: both;}
+      footer p {margin:0}
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>Epicode</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#">TypeScript</a></li>
-                    <li><a href="#">Angular</a></li>
-                </ul>
-            </nav>
-        </header>
+      <!--Intestazione-->
+      <header>
+        <h1>Epicode</h1>
+        <nav>
+          <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">TypeScript</a></li>
+            <li><a href="#">Angular</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!--Corpo Centrale-->
+      <main>
+        <aside>
+            <img src="../D1/images/img_orange_flowers.jpeg" alt="Flower"><br>
+            <img src="../D1/images/img_pink_flowers.jpeg" alt="Flower">
+        </aside>
+        <section>
+          <p>
+            Jelly beans sesame snaps chocolate cake chocolate cake chupa chups
+            carrot cake. Powder dessert sweet roll halvah jelly-o jelly-o gummi
+            bears. Caramels biscuit cheesecake chocolate jelly-o.
+          </p>
+          <p>
+            Halvah apple pie carrot cake chocolate bar cookie brownie chocolate
+            bar. Jelly-o tiramisu lollipop ice cream ice cream cake. Candy canes
+            jujubes lemon drops powder cake pudding bonbon
+          </p>
+          <p>
+            Gummi bears apple pie halvah jelly beans toffee. Lemon drops pie
+            gummies marshmallow cake shortbread. Cupcake jujubes jujubes danish
+            jelly-o. Marzipan sweet roll dessert sesame snaps marzipan
+            marshmallow.
+          </p>
+        </section>
+      </main>
+      <footer>
+        <p>
+            footer
+        </p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
