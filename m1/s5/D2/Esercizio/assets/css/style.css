@@ -32,6 +32,9 @@ header {
   box-shadow: 0 3px 3px #444;
   margin-bottom: 1.5em;
   padding: 2em 1.5em;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 @media screen and (min-width: 800px) {
@@ -100,8 +103,15 @@ main {
   main {
     padding: 2em;
   }
+  
 }
-
+.torna{
+  position: fixed;
+  right: 0;
+}
+.torna i{
+  font-size: 2.5em;
+}
 section {
   background-color: #e3e3e3;
   padding: 1.5em 1em;
@@ -117,6 +127,8 @@ section h2 {
   font-weight: bold;
   background-color: #a3a3a3;
   padding: 0px 1em;
+  position: absolute;
+  top: -15px
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -127,6 +139,8 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
+  z-index: 9;
+  position: relative;
 }
 
 p,
@@ -153,6 +167,13 @@ h1 + p {
     font-size: 1.8rem;
     font-weight: 700;
   }
+  .underline{
+    position: relative;
+    left: 0px;
+    top: -35px;
+    width: 95%;
+    
+}
 }
 
 @media screen and (min-width: 500px) {
@@ -170,12 +191,26 @@ h1 + p {
     font-size: 1.4rem;
     font-weight: 700;
   }
+  .underline{
+    position: relative;
+    left: 5px;
+    top: -40px;
+    width: 95%;
+    
+}
 }
 
 @media screen and (min-width: 700px) {
   h1 {
     font-size: 3.6rem;
   }
+  .underline{
+    position: relative;
+    left: 0px;
+    top: -50px;
+    width: 500px;
+    
+}
 }
 
 @media screen and (min-width: 1200px) {
@@ -185,13 +220,23 @@ h1 + p {
   section {
     border-radius: 20px;
   }
+  section p{
+    margin-top: 20px;
+  }
+  .underline{
+    position: relative;
+    left: 380px;
+    top: -50px;
+    width: 600px;
+    
 }
-
+}
 .imgLeft {
   margin-right: 20px;
   border: 4px solid #00a0c6;
   outline: 4px solid #a02571;
   padding: 3px;
+  float: left;
 }
 ul,
 ol {
