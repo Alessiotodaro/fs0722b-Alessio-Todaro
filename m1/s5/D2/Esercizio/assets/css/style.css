@@ -1,10 +1,8 @@
 /* IMPOSTAZIONI GENERALI */
-/*
-<i class="fas fa-pen-square"></i>
-<i class="fas fa-tag"></i>  (quella tre schede)
-<i class="fas fa-calendar-alt"></i>
-<i class="fas fa-pen-square"></i>
-*/
+
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: Poppins, "Helvetica Neue", sans-serif;
   line-height: 1.6;
