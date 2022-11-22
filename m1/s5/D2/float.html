@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Float</title>
     <style>
-        body{margin: 0;}
-        .conttainer{width: 1200px; margin: 0 auto;border: 1 px solid black;}
+        body {margin: 0;}
+        .conttainer {width: 1200px; margin: 0 auto;border: 1 px solid black;}
         header {background-color: aquamarine; text-align: center;}
-        header h1 {color: white;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;margin:0;}
-        nav{background-color: blueviolet;}
+        header h1 {color: white;font-family: Impact, Haettenschweiler, 'Arial Narrow Light', sans-serif;margin:0;}
+        nav {background-color: blueviolet;}
         nav ul {margin: 0; padding: 0;list-style-type: none;}
+        nav li {display: inline/*-block*/;border-right: 1px solid white;/*width: 200px;*/padding: 0 80px;}
+        nav li:last-child {border-right:none;}
+        nav a {color: white;text-decoration: none;}
+        nav a:hover{background-color: white; color:blueviolet;}
     
     </style>
 </head>
