@@ -108,9 +108,49 @@ main {
 .torna{
   position: fixed;
   right: 0;
+  bottom: 10px;
+  z-index: 90;
 }
 .torna i{
   font-size: 2.5em;
+  color:violet;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 3px 2px 2px 1px rgb(0, 0, 0, 0.5);
+  
+
+}
+.button_1{
+  position: fixed;
+  right: 0;
+  bottom: 70px;
+  z-index: 90;
+}
+.button_1 i{
+  font-size: 2.5em;
+  color:blue;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 3px 2px 2px 1px rgb(0, 0, 0, 0.5);
+}
+.button_2{
+  position: fixed;
+  right: 0;
+  bottom: 130px;
+  z-index: 90;
+}
+.button_2 i{
+  font-size: 2.5em;
+  color:blue;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 3px 2px 2px 1px rgb(0, 0, 0, 0.5);
 }
 section {
   background-color: #e3e3e3;
@@ -210,6 +250,21 @@ h1 + p {
     top: -50px;
     width: 500px;
     
+}
+.button_2{
+  position: fixed;
+  right: 0;
+  bottom: 130px;
+  z-index: 90;
+}
+.button_2 i{
+  font-size: 2.5em;
+  color:blue;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 3px 2px 2px 1px rgb(0, 0, 0, 0.5);
 }
 }
 
