@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(120, 40, 40);
+    font-weight: bold;
+}
+nav{
+    background-color: beige;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav div {
+    background-color: rgb(255, 225, 115) ;
+    width: 50%;
+    padding: 20px;
+    border-radius: 50px; 
+    font-size: 1.5em;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px ;    
+}
+nav div img{
+    width: 40px;
+    margin-right: 15px;
+}
+.nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+.nav-button a{
+align-content: center;
+padding: 10px;
+background-color: rgb(255, 225, 115);
+border-radius: 50px;
+width: 30%;
+text-align: center;
+margin-bottom: 15px;
+margin-left: 10px;
+margin-right: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+.container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+
+}
+.container div{
+    width: 95%;
+    background-color: beige;
+    border-radius: 35px;
+    margin: 0 auto 20px
+}
+.container div p{
+   display: inline-flex;
+   text-align: center;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container div span p{
+    margin-right: 100px;
+}
+.container div button{
+    display: block;
+    margin: 0 auto 20px;
+    background-color: rgb(255, 225, 115);
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+    color: rgb(120, 40, 40);
+    padding: 10px;
+    font-weight: 800;
+}
+.container div img{
+    width: 100%;
+    border-top-left-radius:  35px;
+    border-top-right-radius: 35px;
+}
+h2{
+    text-align: center;
+    font-weight: 800;
+}
+article{
+    background-color: beige;
+    border-radius: 35px;
+    padding: 20px;
+}
+article p{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+article span{
+    font-size: 1.3em;
+    font-weight: 800;
+}
+article img{
+    width: 100%;
+}
