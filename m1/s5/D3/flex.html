@@ -8,9 +8,29 @@
     <style>
         .main-nav{
             display: flex;
+            background-color: blueviolet;
+            color: white;
+            border-radius: 5px;
+            padding: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: space-between;
         }
-        ul{
+        .main-nav>ul{
             display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            flex: 3;
+        }
+        .main-nav>ul>li{
+            margin-right: 15px;
+        }
+        .main-nav>ul>li>a{
+            text-decoration: none;
+            color: white;
+        }
+        .main-nav>ul>li>a:hover{
+            color: bisque;
         }
         form{
             display: flex;
