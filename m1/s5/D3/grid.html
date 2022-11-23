@@ -92,7 +92,7 @@
         grid-column-gap: 15px;
       "
     >
-      <!-- row ga e column gap servono per la spaziatura tra righe, verticale e orizzontale-->
+      <!-- row gap e column gap servono per la spaziatura tra righe, verticale e orizzontale-->
       <div>1</div>
       <div>2</div>
       <div>3</div>
@@ -105,5 +105,28 @@
       <div>8</div>
       <div>9</div>
     </div>
+    <br><br>
+    <div style='
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-items: stretch;'><!-- stretch riempie la width dell'elemento; altri valori => start | end | center -->
+    <!--
+        align-items => allinea verticale (anzichè orizzontale): 
+        stretch | start | center | end  
+        
+        justify-content => posiziona rispetto ai margini verticali del contenitore:
+        stretch | start | end | center | space around | space-between
+        
+        align-content =>  posiziona rispetto ai margini orizzontali del contenitore:
+        stretch | start | end | center | space-around | space-between
+    -->
+        <div>1</div>
+        <div>2</div>
+        
+        <div>3</div>
+        <div>4</div>
+    </div>
+    
   </body>
 </html>
