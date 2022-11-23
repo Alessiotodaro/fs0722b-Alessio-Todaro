@@ -103,6 +103,15 @@ main {
   }
   
 }
+h1 span {
+  position: relative;
+}
+h1 span img{
+  position: absolute;
+  bottom: auto;
+  left: 10p;
+  width: auto;
+}
 .torna{
   position: fixed;
   right: 0;
@@ -202,13 +211,6 @@ h1 + p {
     font-size: 1.8rem;
     font-weight: 700;
   }
-  .underline{
-    position: relative;
-    left: 0px;
-    top: -35px;
-    width: 95%;
-    
-}
 }
 
 @media screen and (min-width: 500px) {
@@ -226,26 +228,12 @@ h1 + p {
     font-size: 1.4rem;
     font-weight: 700;
   }
-  .underline{
-    position: relative;
-    left: 5px;
-    top: -40px;
-    width: 95%;
-    
-}
 }
 
 @media screen and (min-width: 700px) {
   h1 {
     font-size: 3.6rem;
   }
-  .underline{
-    position: relative;
-    left: 0px;
-    top: -50px;
-    width: 500px;
-    
-}
 .button_1{
   bottom: 510px;
   
@@ -265,12 +253,6 @@ h1 + p {
   section p{
     margin-top: 20px;
   }
-  .underline{
-    position: relative;
-    left: 380px;
-    top: -50px;
-    width: 600px;
-}
 .button_1{
   position: fixed;
   right: 0;
