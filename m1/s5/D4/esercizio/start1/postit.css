@@ -1,14 +1,70 @@
 #container{
 display: flex;
-background-color: #666;
-padding: 100px;
+background-color: rgb(79, 79, 79);
+padding: 50px;
 flex-wrap: wrap;
+border: 20px solid #c29467;
 }
 #container div {
     width: 200px;
     height: 200px;
-    background-color: rgb(172, 127, 215);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    transform: rotate(5deg);
     margin: 10px;
+}
+#container div h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+    font-family: cursive;
+    margin-top: 50px ;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#container div p{
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2em;
+    font-family: cursive;
+    color: black;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#c1 {
+ color: white;
+ background: rgb(165,101,196);
+ background: linear-gradient(180deg, rgba(165,101,196,1) 51%, rgb(93, 93, 93) 100%);
+ transform: rotate(5deg);
+}
+#c2 {
+    color: white;
+    background: linear-gradient(180deg, rgb(101, 196, 196) 51%, rgb(92, 92, 92) 100%);
+    transform: rotate(-2deg);
+}
+#c3 {
+    color: white;
+    background: linear-gradient(180deg, rgb(138, 254, 148) 51%, rgb(88, 88, 88) 100%);
+    transform: rotate(2deg);
+}
+#c4 {
+    color: white;
+    background: linear-gradient(180deg, rgb(255, 216, 98) 51%, rgb(88, 88, 88) 100%);
+    transform: rotate(-6deg);
+}
+#c5 {
+    color: white;
+    background: linear-gradient(180deg, rgb(92, 179, 255) 51%, rgb(88, 88, 88) 100%);
+    transform: rotate(4deg);
+}
+#c6 {
+    color: white;
+    background: linear-gradient(180deg, rgb(255, 92, 187) 51%, rgb(88, 88, 88) 100%);
+    transform: rotate(-4deg);
+}
+#c7 {
+    color: white;
+    background: linear-gradient(180deg, rgb(255, 83, 83) 51%, rgb(88, 88, 88) 100%);
+    transform: rotate(-3deg);
+}
+#c8 {
+    color: white;
+    background: linear-gradient(180deg, rgb(255, 234, 0) 51%, rgb(88, 88, 88) 100%);
+    transform: rotate(-4deg);
 }
