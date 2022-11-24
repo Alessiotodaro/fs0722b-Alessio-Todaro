@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animazione timing</title>
+    <style>
+        #box{width: 520px; border: 1px solid black; padding: 5px;}
+        .box{width: 100px; height: 100px; margin: 10px; border: 1px solid black;}
+        #box1 {border-color: #f90;
+        animation-name:animazione_box;
+        animation-duration: 10s;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-timing-function: linear;
+        }
+        #box2 {border-color: #f50;
+        animation-name:animazione_box;
+        animation-duration: 10s;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+        }
+        #box3 {border-color: #ff10;
+        animation-name:animazione_box;
+        animation-duration: 10s;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+        }
+        #box4 {border-color: #050;
+        animation-name:animazione_box;
+        animation-duration: 10s;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+        }
+        #box5 {border-color: #030;
+        animation-name:animazione_box;
+        animation-duration: 10s;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+    </div>
+</body>
+</html>

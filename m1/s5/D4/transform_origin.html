@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform Origin</title>
+    <style>
+      #div1 {
+        position: relative;
+        height: 200px;
+        width: 200px;
+        margin: 100px;
+        padding: 10px;
+        border: 1px solid #000;
+      }
+      #div2 {
+        position: absolute;
+        padding: 50px;
+        border: 1px solid #000;
+        background-color: red;
+        transform: rotate(40deg);
+        transform-origin: left center; /* x => left, center rigth, % | y => top, center, bottom,, % */
+      }
+    </style>
+  </head>
+  <body>
+    <h2>La proprietà <code>transform-origin</code></h2>
+    <p>
+      Ci permette di cambiare la posizione di un elemento che ha subito una
+      trasformazione
+    </p>
+    <div id="div1">
+      <div id="div2">Ciao</div>
+    </div>
+    <!--playground https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
+        https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateZ
+        https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateZ
+        https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ-->
+  </body>
+</html>

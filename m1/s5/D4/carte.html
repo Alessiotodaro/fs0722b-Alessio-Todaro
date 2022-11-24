@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carte</title>
+    <style>
+      #container {
+        width: 760px;
+        margin: o auto;
+        padding-top: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+      }
+      #carte {
+        margin: 0;
+        padding: 0;
+      }
+      #carte li {
+        background: #333;
+        margin: 0;
+        color: #fff;
+        height: 450px;
+        width: 200px;
+        font-size: 12px;
+        display: block;
+        float: left;
+        border: 1px solid #666;
+        padding: 10px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px #000;
+        text-shadow: 1px 1px 1px #000;
+        transition: all 0.5s ease-in-out;
+      }
+      #carta_1 {
+        transform: rotate(-20deg);
+        z-index: 1;
+        left: 150px;
+        top: 40px;
+      }
+      #carta_2{
+        z-index: 2;
+        left: 70px;
+        top: 10px;
+      }
+      #carta_3{
+        transform: rotate(-20deg);
+        
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <ul id="carte">
+        <li id="carta_1">
+          <h2>Carta 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore id
+            maiores eveniet at asperiores animi numquam aliquid atque corrupti
+            voluptatibus, voluptatum nulla perspiciatis, optio dolorem
+            doloremque quam, quo quis officia?
+          </p>
+        </li>
+        <li id="carta_2">
+          <h2>Carta 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam est
+            qui rem provident consequatur dolor corporis vero cupiditate
+            pariatur, tempore accusamus ab culpa! Nemo, consequatur possimus!
+            Modi cum aliquam quam.
+          </p>
+        </li>
+        <li id="carta_3">
+          <h2>Carta 3</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae vel
+            velit porro? Laboriosam ipsum, obcaecati ex officiis debitis error
+            sunt quo. Animi optio sed enim neque aliquam fuga doloremque quasi.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
