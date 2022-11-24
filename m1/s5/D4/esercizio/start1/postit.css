@@ -1,0 +1,14 @@
+#container{
+display: flex;
+background-color: #666;
+padding: 100px;
+flex-wrap: wrap;
+}
+#container div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(172, 127, 215);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: rotate(5deg);
+    margin: 10px;
+}
