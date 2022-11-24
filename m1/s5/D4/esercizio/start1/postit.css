@@ -68,3 +68,36 @@ border: 20px solid #c29467;
     background: linear-gradient(180deg, rgb(255, 234, 0) 51%, rgb(88, 88, 88) 100%);
     transform: rotate(-4deg);
 }
+
+#c1:hover {
+    transform: scale(1.2,1.2) rotate(0deg);
+    z-index: 9;
+   }
+#c2:hover {
+    transform: scale(1.2,1.2) rotate(0deg);
+    z-index: 9;
+   }
+#c3:hover {
+    transform: scale(1.2,1.2) rotate(0deg);
+    z-index: 9;
+   }
+#c4:hover {
+    transform: scale(1.2,1.2) rotate(0deg);
+    z-index: 9;
+   }
+#c5:hover {
+    transform: scale(1.2,1.2) rotate(0deg);
+    z-index: 9;
+   }
+#c6:hover {
+    transform: scale(1.2,1.2) rotate(0deg);
+    z-index: 9;
+   }
+#c7:hover {
+    transform: scale(1.2,1.2) rotate(0deg);
+    z-index: 9;
+   }
+#c8:hover {
+    transform: scale(1.2,1.2) rotate(0deg);
+    z-index: 9;
+   }
