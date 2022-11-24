@@ -6,21 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>transform</title>
     <style>
-        div.a{
+        h2{
+            text-align: center;
+        }
+        span{
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        div.a {
             width: 150px;
             height: 80px;
             background-color: yellow;
+            margin: 50px auto 50px;
             transform: rotate(-90deg);
+        }
+        div.b {
+            width: 150px;
+            height: 80px;
+            background-color: blueviolet;
+            margin: 50px auto 50px;
+            transform: skewX(-50deg);
+        }
+        div.c {
+            width: 150px;
+            height: 80px;
+            background-color: orange;
+            margin: 50px auto 50px;
+            transform: scaleX(4);/*scale | scaleY | scaleX */
         }
     </style>
 </head>
 <body>
-    <h2>la proprietà transform</h2>
+    <h2><span>La proprietà transform</span></h2>
     <h2>transform rotate</h2>
     <div class="a"> Rotate</div>
     <h2>transform skew</h2>
     <div class="b">skew</div>
     <h2>transfrom scale</h2>
-    <div class="c"></div>
+    <div class="c">Scale</div>
 </body>
 </html>
