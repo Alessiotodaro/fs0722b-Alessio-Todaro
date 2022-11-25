@@ -79,6 +79,10 @@ nav ul li:last-child{
     padding: 10px 50px 10px 50px;
     border-radius: 50px;
 }
+.border{
+    border-bottom: 1px solid #191919;
+    margin-bottom: 20px;
+}
 .trend{
     display: flex;
     flex-wrap: wrap;
@@ -153,7 +157,7 @@ margin-bottom: 50px;
 color: #464646ae;
 margin-bottom: 10px;
 }
-.article h4 {
+.article div div h4 {
 display: flex;
 align-items: center;
 color: #464646ae;
@@ -169,6 +173,58 @@ font-size: 0.8em;
 .article div h4 img{
     margin-left: 5px;
 }
-.article div img{
-    width: 20px;
+.descrizione {
+    display: flex;
+    justify-content: space-between;
+}
+.article{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.article .div-image img{
+    height: 150px;
+    margin-left: 50px;
+}
+.article-section{
+    display: flex;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+.fixed{
+    max-width: 25%;
+    margin:0 auto;
+    position:sticky;
+}
+.fixed section{
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+}
+.fixed h3{
+font-weight: 800;
+font-size: 0.8em;
+margin-bottom: 20px;
+}
+.fixed section a{
+    border: 1px solid #19191951;
+    margin: 0 15px 0 0;
+    line-height: 2.5em;
+    padding: 5px 10px;
+    color: #191919ae;
+    font-size: 0.8em;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.fixed .footer a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.95em;
+    color: #191919ae;
+    margin: 0px 20px 0px 0px;
+    border:none;
+    padding: 0;
+}
+.fixed .footer {
+    margin-top: 20px;
+    border: none;
 }
