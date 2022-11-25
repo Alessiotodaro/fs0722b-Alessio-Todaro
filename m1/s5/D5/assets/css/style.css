@@ -58,7 +58,8 @@ nav ul li:last-child{
     background-color: #ffc017;
     transition: 1s;
 }
- /* Main */
+
+/* Main */
 .top-section{
     background-color: #ffc017;
     border-bottom: 1px solid #191919;
@@ -250,4 +251,58 @@ margin-bottom: 20px;
 }
 .container-article{
     margin-left: 150px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 480px) {
+    nav{
+        justify-content: space-between;
+    }
+    nav img {
+        margin: 0;
+        margin-left:10px;
+    }
+    .hide{
+        display: none;
+    }
+    nav ul{
+        justify-content: end;
+        margin: 0;
+    }
+    .top-section div{
+        margin: 0 auto;        
+    }
+    .top-section div h1{
+        text-align: left;
+        font-size: 5em;
+       margin: 25% 0 auto;
+    }
+    .trend{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .trend-title h2{
+        margin-left: 25px;
+        
+    }
+    .container-article{
+        font-size: 0.9em;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .fixed{
+        margin-left: 0;
+        margin-right: 0;
+        width: 95%;
+        justify-content: center;
+        display: block;
+    }
+}
+/*Tablet*/
+@media only screen and () {
+    
+}
+/*Stampa*/
+@media only print {
+
 }
