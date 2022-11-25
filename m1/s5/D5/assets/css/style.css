@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Spectral:wght@400;800&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
-    
 }
 
 /* Header - Nav */
@@ -316,6 +315,9 @@ margin-bottom: 20px;
         justify-content: end;
         margin: 0;
     }
+    .top-section{
+        order: 1;
+    }
     .top-section div{
         margin: 0 auto;        
     }
@@ -343,14 +345,14 @@ margin-bottom: 20px;
         justify-content: center;
         margin: 0 auto;
         padding: 10px;
-        order: 1;
+        order: 2;
     }
     .fixed section{
         margin: 0 auto
     }
     .article-section{
         justify-content: center;
-        order: 2;
+        order: 3;
     }
 }
 
