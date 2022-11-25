@@ -80,7 +80,8 @@ nav ul li:last-child{
 .top-section div h1{
    font-size: 7.5em;
    font-family: 'spectral', serif;
-   word-spacing: -0.15em;
+   word-spacing: 0.1em;
+   letter-spacing: -0.09em;
 }
 .top-section div p{
     font-size: 1.3em;
@@ -246,4 +247,7 @@ margin-bottom: 20px;
 .fixed .footer {
     margin-top: 20px;
     border: none;
+}
+.container-article{
+    margin-left: 150px;
 }
