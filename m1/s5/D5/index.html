@@ -12,14 +12,14 @@
 
 <body>
     <header>
-        <nav>
+        <nav id="nav">
             <a href=""><img src="assets/imgs/svg/logo.svg" alt="Logo medium.com"></a>
             <ul>
                 <li><a href="#">Our story</a></li>
                 <li><a href="#">Membership</a></li>
                 <li><a href="#">Write</a></li>
                 <li><a href="#">Sign in</a></li>
-                <li><a href="#">Get started</a></li>
+                <li id="last" class="prova"><a href="#">Get started</a></li>
             </ul>
         </nav>
     </header>
@@ -226,8 +226,27 @@
             </div>
         </section>
     </main>
-    </footer>
-    <footer>
+    <script>
+        function scroll(){
+           window.addEventListener("scroll",function(event){
+            if (document.documentElement.scrollTop>410) {
+                document.getElementById("nav").className = "nav-js"
+            } else {
+                document.getElementById("nav").className = "";
+            }
+           })
+        }
+        function back(){
+            window.addEventListener("scroll", function(event){
+                if (document.documentElement.scrollTop>410) {
+                    document.getElementById("last").className = "last-js"
+                } else {
+                    document.getElementById("last").className = "";
+                }
+            })
+        }
+        scroll()
+        back()
+    </script>
 </body>
-
 </html>

@@ -6,12 +6,23 @@ body{
 }
 
 /* Header - Nav */
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 99;
+}
 nav{
     background-color: #ffc017;
     display: flex;
     justify-content: space-between;
-    position: sticky;
     align-items: center;
+    transition: 1s;
+    border-bottom: 1px solid #191919;
+}
+.nav-js{
+background-color: white;
+transition: 1s;
 }
 nav img{
     margin: 25px;
@@ -41,11 +52,16 @@ nav ul li:last-child{
     color: white;
     border-radius: 30px;
     padding: 13px 20px;
+    transition: 1s;
+}
+.last-js{
+    background-color: #ffc017;
+    transition: 1s;
 }
  /* Main */
 .top-section{
     background-color: #ffc017;
-    border: 1px solid #191919;
+    border-bottom: 1px solid #191919;
     width: 100%;
     height: 400px;
     display: flex;
@@ -195,6 +211,9 @@ font-size: 0.8em;
     max-width: 25%;
     margin:0 auto;
     position:sticky;
+    height: 25vh;
+    right: 0;
+    top: 25%
 }
 .fixed section{
     border-bottom: 1px solid #cccccc;
