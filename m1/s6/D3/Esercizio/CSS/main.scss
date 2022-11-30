@@ -1,0 +1,12 @@
+@import '_variable.scss';
+@import 'button.scss';
+main{
+    div{
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        margin: $pad;
+        padding: $pad;
+        
+    }
+}

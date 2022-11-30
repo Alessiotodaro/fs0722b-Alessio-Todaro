@@ -1,0 +1,35 @@
+@import '_variable';
+header{
+    width: $full-width;
+    background-color: $black;
+    nav{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: $margin;
+        img{
+            margin-left: $margin;
+            width: 30px;
+            height: 30px;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            margin-right: $margin;
+            
+            li{
+                padding-left: 15px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        color: $orange;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    
+}

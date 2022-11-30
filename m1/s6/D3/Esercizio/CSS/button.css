@@ -1,0 +1,9 @@
+button {
+  background-color: rgb(255, 136, 0);
+  color: white;
+  border: 1px solid rgba(16, 16, 16, 0.875);
+  margin-right: 10px;
+  width: 20%;
+  padding: 20px;
+  transform: rotateX(180deg);
+}/*# sourceMappingURL=button.css.map */

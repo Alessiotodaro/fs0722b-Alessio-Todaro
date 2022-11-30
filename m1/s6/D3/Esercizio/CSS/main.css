@@ -1,0 +1,16 @@
+button {
+  color: white;
+  border: 1px solid rgba(16, 16, 16, 0.875);
+  margin-right: 10px;
+  width: 20%;
+  padding: 20px;
+  transform: rotateX(180deg);
+}
+
+main div {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */
