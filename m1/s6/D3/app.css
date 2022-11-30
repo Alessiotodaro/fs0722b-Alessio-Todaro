@@ -1,3 +1,4 @@
+@charset "UTF-8";
 nav {
   display: block;
 }
@@ -79,4 +80,14 @@ nav ul {
 #main3-sidebar {
   border: 1px solid black;
   padding: 10px;
+}
+body.firefox #main3 {
+  line-height: 1.5em;
+}
+
+/* proprietà nidificate*/
+#main4 {
+  font-family: Georgia;
+  font-size: 2em;
+  font-weight: bold;
 }/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS seconda parte</title>
+</head>
+<body>
+<!-- Le variabili in sass, tipizzate dinamicamente
+    valori possibili? => numero (1,2,3,4 10px, 2 em)
+                      => stringhe di testo ('hello', "goodbye" ciao -> anche senza apici perchè non collide con altri tipi di variabili)
+                      => colore (red,blue,#ffcc00,rgba(10,0,239,0.5) -> anche questi senza apici)
+                      => boolean: true, false
+                      => null
+                      => lista di valori (5px 5px 10px oppure Helvetica,Arial, sans-serif)
+                      => mappa chiave/valore -> es. (nome:Federico, cognome: De Ambrosis)
+                                             -> $set-color: (grigio:#ccc; blu:#00f)
+    le variabili servono, come sempre, a memorizzare dei valori
+    i valori corrisponderanno ai parametri delle regole di stile
+    imposto una variabile, la utilizzo in una specifica proprietà e la assegno al selettore
+    tipicamente le variabili non vengono riassegnate, hanno una natura più vicina alla constante
+    esempio
+    $main-margin-top: 30px -> nello stile questo parametro può essere ripetuto per più elementi
+                           -> se modifico il valore di SASS intervengono solo una volta sulla variabile
+                              e modifico tutti i valori delle diverse proprietà nei diversi selettori
+    button {margin-top: $main-margin-top}
+    .left {margin-top: $main-margin-top}
+    h1{margin-top: $main-margin-top} 
+-->
+    
+</body>
+</html>

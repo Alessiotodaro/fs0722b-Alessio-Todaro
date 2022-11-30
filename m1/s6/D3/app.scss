@@ -66,4 +66,15 @@ nav {
         border:1px solid black;
         padding: 10px;
     }
+    body.firefox & {
+        line-height: 1.5em;
+    }
+}
+/* proprietà nidificate*/
+#main4{
+    font: {
+        family: Georgia;
+        size: 2em;
+        weight: bold;
+    }
 }
