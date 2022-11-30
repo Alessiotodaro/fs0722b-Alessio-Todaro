@@ -43,3 +43,20 @@ nav {
     
     .bottone{background-color: black; color: white;}
 }
+/*keyword &*/
+#pippo {
+    color: red;
+    font-size: 1.5em;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.esempio2{
+    background-color: blue;
+    h1 {
+        color: grey;
+        &:hover{font-size:52px}
+    }
+    .bottone{background-color: grey;}
+}

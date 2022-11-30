@@ -48,4 +48,27 @@ nav ul {
 .esempio .bottone {
   background-color: black;
   color: white;
+}
+
+/*keyword &*/
+#pippo {
+  color: red;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+#pippo:hover {
+  text-decoration: underline;
+}
+
+.esempio2 {
+  background-color: blue;
+}
+.esempio2 h1 {
+  color: grey;
+}
+.esempio2 h1:hover {
+  font-size: 52px;
+}
+.esempio2 .bottone {
+  background-color: grey;
 }/*# sourceMappingURL=app.css.map */
