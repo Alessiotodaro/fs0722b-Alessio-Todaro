@@ -1,0 +1,22 @@
+nav {
+    display: block;
+    ul{
+        display: inline;
+        background: yellow;
+    }
+}
+/* selettori nidificati */
+#main {
+    p {             /* Vincolo lo stile al contenitore e non devo riscriverlo*/
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    span {
+        font-size: 1.5em;
+        padding-left: 10px;
+    }
+    a{
+        color: red;
+        text-decoration: none;
+    }
+}
