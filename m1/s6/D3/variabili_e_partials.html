@@ -27,6 +27,44 @@
     button {margin-top: $main-margin-top}
     .left {margin-top: $main-margin-top}
     h1{margin-top: $main-margin-top} 
+
+    SASS utilizza operatori logici, operatori di comparazione, operatori numerici
+    == e != uguale e diverso
+    + - * / operatori matematici -> 5px + 2px
+    2px === 2px
+    2px > 1px
+
+    sass accetta le stringhe sia con apici singoli, che doppi che senza apici, il doppio apice è necessario quando il valore si compone
+    p{font-family:"Times New Roman", Georgia, Serif}
+
+    mappe
+    sono chiave valore
+    $map: {k1:v1, k2:v2} coppie chiude tra parentesi e separate da virgole
+    le mappe sono immutabili se una funzione manipola una mappa non aggiorna la vecchia ma ne crea una nuova
+    documentazione =
+    https://sass-lang.com/documentation/variables
+
+    ///////////////////////////////////////
+    ////////////// Partials ///////////////
+    ///////////////////////////////////////
+
+    sass ci permette di lavorare su signoli piccoli file che si occupano di specifiche porzioni di codice
+    i singoli partials poi possono essere ricombinati in un unico css
+    questo rente il lavoro modulare e più facilmente gestibile
+    sintassi -> un file partials si distingue perchè prevede un _iniziale
+    _header.scss -> si occupa di formattare le proprietà  child del tag <header>
+    _footer.scss -> si occupa di formattare le proprietà  child del tag <footer>
+    dentro i file partials la sintassi è sempre la stessa identica SASS (.scss) di tutti gli altri file
+    
+    style.scss -> un file .scss principale che incorpora gli altri partials
+    sintassi -> @import 'nome_del_file_partial'
+    il file scss principale può = a) incorporare soltanto partials, b)incorporare partials + ospitare codice scsss
+    @import 'header':
+    $colore: #abc;
+    body {background-color:$colore};
+    @import 'footer';
+
+
 -->
     
 </body>
