@@ -18,4 +18,34 @@ nav ul {
 #main a {
   color: red;
   text-decoration: none;
+}
+
+/* Selettori nidificati 2*/
+#main2 {
+  background-color: red;
+}
+#main2 div {
+  color: green;
+}
+#main2 div .red {
+  color: blue;
+}
+#main2 div .red a {
+  text-decoration: none;
+  color: white;
+}
+
+/*nesting*/
+.esempio {
+  background-color: green;
+}
+.esempio h1 {
+  color: grey;
+}
+.esempio .titolo {
+  font-size: 54px;
+}
+.esempio .bottone {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=app.css.map */

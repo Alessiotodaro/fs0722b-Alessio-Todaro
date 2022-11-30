@@ -20,3 +20,26 @@ nav {
         text-decoration: none;
     }
 }
+/* Selettori nidificati 2*/
+#main2 {
+    background-color: red;
+    div{
+        color: green;
+        .red{
+            color: blue;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+/*nesting*/
+.esempio{
+    background-color: green;
+    h1{
+        color: grey;}
+    .titolo{font-size: 54px;}
+    
+    .bottone{background-color: black; color: white;}
+}
