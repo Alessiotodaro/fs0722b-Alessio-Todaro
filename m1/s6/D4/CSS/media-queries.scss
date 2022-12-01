@@ -1,0 +1,22 @@
+.menu{
+    li{
+        padding: 3px;
+        
+        @media screen and (max-width:1024px){
+            display: block;
+            text-align: center;
+            background-color: gray;
+        }
+        @media screen and (min-width:1025px){
+            display: inline-block;
+            border-right: 1px solid black;
+            &:first-child{
+                border-left: 1px solid black;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

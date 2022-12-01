@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/funzioni.css">
+    <title>Funzioni SASS</title>
+</head>
+<body>
+    <!-- SASS estende la possibilità di generare CSS tramite le funzioni-->
+    <!-- due tipi di funzioni 1. le funzioni customizzate 2. le predefinite speciali-->
+    <!-- la direttiva per creare una funzione  è @function-->
+    <!-- esempio di una funziona custom
+        @function em($pixel, $contetx: 16px){
+            @return ($pixel / $context) * 1em;
+        }
+        SCSS 
+        h1 {font-size:em(18px);}
+        CSS
+        h1 {font-size: 1.125em;}
+    -->
+    <!--
+        funzioni speciali:
+        url() -> gestire un percorso assoluto o relativo
+        calc() -> ci permette di fare operazioni aritmetiche
+        clamp() -> restringe tra un valore minimo e un valore massimo
+        min() | max() | min() max  ->stabilisce un minimo un massimo o entrambi
+    -->
+    <!--
+        sass ha anche dei moduli built-in
+        sass:math -> operazioni aritmetiche
+        sass:color -> dispone di alcune proprietà per i colori
+         esempio -> darker(orange, 15%)         -> più scuro
+                    lighten(orange, 20%)        -> più chiaro
+                    trasparentize(#f00, 0.51)   ->aggiunge più trasparenza
+        
+        math.ceil(5.7);
+        mat.clamp(30px, 20px, 10px);
+
+    -->
+    <div></div>
+</body>
+</html>

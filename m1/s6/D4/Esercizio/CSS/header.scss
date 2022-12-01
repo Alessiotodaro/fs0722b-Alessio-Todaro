@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(54, 54, 255);
+    border-radius: 20px;
+    @media screen and (min-width:1024px){
+        justify-content:start;
+    }
+    nav{
+        align-content: center;
+        ul{
+            li{
+                
+                @media screen and (max-width:1024px){
+                    display: block;
+                    text-align: center;
+                    margin-bottom: 10px;
+                    background-color: rgb(255, 217, 0);
+                }
+                @media screen and (min-width:1025px){
+                    display: inline-block;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: whitesmoke;
+                    padding: 0 20px 0 20px;
+                    text-align: center;
+                    &:hover{
+                        color: rgb(202, 146, 255);
+                    }
+                }
+            }
+        }
+    }
+}

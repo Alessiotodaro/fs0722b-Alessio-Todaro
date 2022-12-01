@@ -1,0 +1,6 @@
+@function stripes($nr,$url){
+    $start: hsla(0,100%,50%,0.4);
+    $step_1: 100% / $nr;
+    $step_2: 360 / $nr;
+    $stripe: $stripe + ("linear-gradient(to bottom, " + $url + " 0% " ); //restituisce un risultato con una direttiva return
+}

@@ -1,0 +1,23 @@
+.menu li {
+  padding: 3px;
+}
+@media screen and (max-width: 1024px) {
+  .menu li {
+    display: block;
+    text-align: center;
+    background-color: gray;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .menu li {
+    display: inline-block;
+    border-right: 1px solid black;
+  }
+  .menu li:first-child {
+    border-left: 1px solid black;
+  }
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=media-queries.css.map */

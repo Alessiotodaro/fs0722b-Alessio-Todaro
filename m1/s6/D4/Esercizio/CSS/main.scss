@@ -1,0 +1,29 @@
+main{
+    max-width: 80%;
+    margin: 0 auto;
+    section{
+        display: flex;
+        .articles{
+                max-width: 70%;
+                .art{
+                margin-bottom: 80px;
+                }
+            }
+        }
+        .sidebar{
+            max-width: 50%;
+            margin:0 auto;
+            position:sticky;
+            height: 25vh;
+            right: 0;
+            top: 0;
+            ul{
+                list-style: none;
+               li{
+                border-bottom:1px dotted black;
+                width: 100px;
+                padding: 20px;
+               }
+            }
+        }
+    }

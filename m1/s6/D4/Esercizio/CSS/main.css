@@ -1,0 +1,30 @@
+main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+main section {
+  display: flex;
+}
+main section .articles {
+  max-width: 70%;
+}
+main section .articles .art {
+  margin-bottom: 80px;
+}
+main .sidebar {
+  max-width: 50%;
+  margin: 0 auto;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 25vh;
+  right: 0;
+  top: 0;
+}
+main .sidebar ul {
+  list-style: none;
+}
+main .sidebar ul li {
+  border-bottom: 1px dotted black;
+  width: 100px;
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */

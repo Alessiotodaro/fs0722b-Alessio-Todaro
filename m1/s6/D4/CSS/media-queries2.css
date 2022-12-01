@@ -1,0 +1,13 @@
+.responsive {
+  background-color: yellow;
+}
+@media only screen and (max-width: 680px) {
+  .responsive {
+    background-color: lightblue;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .responsive {
+    background-color: aquamarine;
+  }
+}/*# sourceMappingURL=media-queries2.css.map */
