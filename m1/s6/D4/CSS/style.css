@@ -25,4 +25,37 @@
 
 .mysecondbox {
   font-size: 20px;
+}
+
+/******** Mixin************/
+button.green {
+  padding: 10px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  background: green;
+  outline: 1px solid green;
+  box-shadow: 0 0 10px green;
+  color: white;
+  border: 1px solid white;
+}
+button.green:hover {
+  color: green;
+  background-color: white;
+  box-shadow: none;
+}
+
+button.red {
+  padding: 10px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  background: red;
+  outline: 1px solid red;
+  box-shadow: 0 0 10px red;
+  color: white;
+  border: 1px solid white;
+}
+button.red:hover {
+  color: red;
+  background-color: white;
+  box-shadow: none;
 }/*# sourceMappingURL=style.css.map */

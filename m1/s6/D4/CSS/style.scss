@@ -25,3 +25,30 @@
     @extend %box2;
     font-size: 20px;
 }
+/******** Mixin************/
+
+@mixin baseButton($bgColor){
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+
+    background: $bgColor;//green
+    outline: 1px solid $bgColor;//green
+    box-shadow: 0 0 10px $bgColor;//green
+
+    color: white;
+    border: 1px solid white;
+
+    &:hover{
+        color: $bgColor; //green
+        background-color: white;
+        box-shadow: none;
+    }
+}
+
+button.green{
+    @include baseButton(green);
+}
+button.red{
+    @include baseButton(red);
+}

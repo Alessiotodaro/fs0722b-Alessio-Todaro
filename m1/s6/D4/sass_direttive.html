@@ -21,5 +21,46 @@
     <!-- esempio keyword %-->
     <div class="myfirstbox">my first box</div>
     <div class="mysecondbox">my second box</div>
+
+    <!-----------------Mixins----------------->
+    <!-- a volte @extend non è sufficiente a rendere automatiche diverse modifiche insieme-->
+    <!--<style>
+        .button {
+            padding: 10px 20px;
+            display: inline-block;
+            text-transform: uppercase;
+            background: green;
+            border: 1px solid white;
+            outline: 1px solid green;
+            box-shadow: 0 0 10px green;
+            color: white;
+            &:hover{
+                color: green;
+                background: white;
+                box-shadow:nome;
+            }
+            button {
+                @extend .button
+            }
+            se devo fare una versione di colore diverso
+            button.red {
+                @extend .button {
+                    background: red;
+                    outline: 1 px solid red;
+                    box-shadow: 0 0 10px 20px;
+                    &:hover {
+                        color:red;
+                    }
+                }
+            }
+        }
+        @mixin -> crea gruppi di proprietà css che si ripetono all'interno del foglio di stile 
+        e ci da la possibilità di applicare dei parametri arbitrari
+        un pò come quando passiamo un set di argomenti a una funziona
+    -->
+    <button class="green">Yes</button>
+    <button class="red">No</button>
+
 </body>
+
 </html>
