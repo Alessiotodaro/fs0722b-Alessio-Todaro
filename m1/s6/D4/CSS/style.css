@@ -1,0 +1,28 @@
+/**********Extend**********/
+.box, .mybox {
+  border: 1px solid black;
+  background-color: green;
+  width: 200px;
+}
+
+.mybox {
+  font-size: 20px;
+  color: white;
+}
+
+/************Keyword % *************/
+.mysecondbox, .myfirstbox {
+  border: 1px solid black;
+  background-color: blue;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.myfirstbox {
+  font-size: 10px;
+}
+
+.mysecondbox {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

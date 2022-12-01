@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Sass direttive</title>
 </head>
 <body>
@@ -12,6 +13,13 @@
     <!--@extend i dica al compilatore che una classe eredita tutte le prorpietà di un'altra definita in precedenza-->
     <!-- esempio extend-->
     <div class="box">Box</div> <!-- box definisce bordo e colore-->
-<div class="mybox">myBox</div> <!-- mybox eredita e aggiunge un font size-->
+    <div class="mybox">myBox</div> <!-- mybox eredita e aggiunge un font size-->
+    
+    <!-- Placeholder e direttiva %-->
+    <!-- Lo uso quando può essere utile definire una classe che ha il solo scopo di essere estesa-->
+    <!-- la sintassi prevede di usare un segnaposto % (placeholder) che definisce uno stile che non viene stampato ma solo esteso-->
+    <!-- esempio keyword %-->
+    <div class="myfirstbox">my first box</div>
+    <div class="mysecondbox">my second box</div>
 </body>
 </html>
