@@ -1,0 +1,9 @@
+nav {
+  background-color: rgb(134, 74, 255);
+}
+nav div .navbar-brand {
+  color: white;
+}
+nav div ul .nav-link {
+  color: white;
+}/*# sourceMappingURL=header.css.map */

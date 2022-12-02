@@ -1,0 +1,15 @@
+@import 'variabili.scss';
+nav{
+    background-color: $primary_blu;
+    div{
+        .navbar-brand{
+            color: white;
+        }
+        ul{
+           .nav-link{
+               color: white;
+
+           } 
+        }
+    }
+}

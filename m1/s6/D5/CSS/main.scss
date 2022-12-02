@@ -1,0 +1,33 @@
+@import 'variabili.scss';
+.test{
+    height: 550px;
+    background-image: url('../assets/pexels-aleksandar-pasaric-325185.jpg');
+    background-position: center;
+    .container{
+        h1{
+            padding-top: 100px;
+        }
+        button{
+            background-color: $primary_blu;
+        }
+    }
+}
+.for-col{
+    margin: 0;
+    justify-content: space-around;
+    max-width: 100%;
+    background-color: $primary_gray;
+    div{
+        max-width: 30%;
+        i{
+            font-size: 3em;
+        }
+    }
+}
+.partner{
+    div{
+        img{
+            max-width: 15%;
+        }
+    }
+}

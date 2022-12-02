@@ -1,0 +1,28 @@
+.test {
+  height: 550px;
+  background-image: url("../assets/pexels-aleksandar-pasaric-325185.jpg");
+  background-position: center;
+}
+.test .container h1 {
+  padding-top: 100px;
+}
+.test .container button {
+  background-color: rgb(134, 74, 255);
+}
+
+.for-col {
+  margin: 0;
+  justify-content: space-around;
+  max-width: 100%;
+  background-color: rgba(145, 145, 145, 0.1);
+}
+.for-col div {
+  max-width: 30%;
+}
+.for-col div i {
+  font-size: 3em;
+}
+
+.partner div img {
+  max-width: 15%;
+}/*# sourceMappingURL=main.css.map */

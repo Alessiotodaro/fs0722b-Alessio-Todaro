@@ -1,0 +1,13 @@
+@import 'variabili.scss';
+footer{
+    background-color: $primary_blu;
+    padding: 20px;
+    color: white;
+    section{
+        text-align: center;
+        
+    }
+    p{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,11 @@
+footer {
+  background-color: rgb(134, 74, 255);
+  padding: 20px;
+  color: white;
+}
+footer section {
+  text-align: center;
+}
+footer p {
+  margin-top: 10px;
+}/*# sourceMappingURL=footer.css.map */
