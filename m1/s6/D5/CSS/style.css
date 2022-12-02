@@ -60,4 +60,12 @@ footer section {
 }
 footer p {
   margin-top: 10px;
+}
+
+body {
+  background-color: rgb(91, 91, 91);
+  color: #fff;
+}
+body svg {
+  fill: #000;
 }/*# sourceMappingURL=style.css.map */

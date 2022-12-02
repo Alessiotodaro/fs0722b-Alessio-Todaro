@@ -1,3 +1,8 @@
 @import 'header.scss';
 @import 'main.scss';
 @import 'footer.scss';
+
+$template:dark;
+body{
+    @include back;
+}
