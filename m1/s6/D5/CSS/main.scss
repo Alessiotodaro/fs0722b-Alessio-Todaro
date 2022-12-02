@@ -1,6 +1,8 @@
 @import 'variabili.scss';
+
 .test{
     height: 550px;
+    width: 100%;
     background-image: url('../assets/pexels-aleksandar-pasaric-325185.jpg');
     background-position: center;
     .container{
@@ -13,12 +15,13 @@
     }
 }
 .for-col{
-    margin: 0;
-    justify-content: space-around;
+    padding-top: 40px;
     max-width: 100%;
+    margin: 0;
     background-color: $primary_gray;
     div{
-        max-width: 30%;
+        width: 300px;
+        
         i{
             font-size: 3em;
         }
@@ -28,6 +31,21 @@
     div{
         img{
             max-width: 15%;
+        }
+    }
+}
+.opinioni{
+    text-align: center;
+    margin-bottom: 100px;
+    h2{
+        margin-bottom: 80px;
+    }
+    .carousel-inner{
+        .carousel-item{
+            img{
+                max-width: 15%;
+                border-radius:50% ;
+            }
         }
     }
 }

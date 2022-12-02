@@ -1,5 +1,6 @@
 .test {
   height: 550px;
+  width: 100%;
   background-image: url("../assets/pexels-aleksandar-pasaric-325185.jpg");
   background-position: center;
 }
@@ -11,13 +12,13 @@
 }
 
 .for-col {
-  margin: 0;
-  justify-content: space-around;
+  padding-top: 40px;
   max-width: 100%;
+  margin: 0;
   background-color: rgba(145, 145, 145, 0.1);
 }
 .for-col div {
-  max-width: 30%;
+  width: 300px;
 }
 .for-col div i {
   font-size: 3em;
@@ -25,4 +26,16 @@
 
 .partner div img {
   max-width: 15%;
+}
+
+.opinioni {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.opinioni h2 {
+  margin-bottom: 80px;
+}
+.opinioni .carousel-inner .carousel-item img {
+  max-width: 15%;
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */
