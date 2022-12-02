@@ -6,8 +6,11 @@ $bg-bright:#fff;
     @if $template == dark{
         background-color: $bg-dark;
         color: $bg-bright;
-        svg{
-            fill: #000;
+        nav{
+            background-color: rgb(66, 0, 99);
+        }
+        footer{
+            background-color: rgb(66, 0, 99);
         }
     }
     @if $template == bright{

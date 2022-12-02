@@ -66,6 +66,9 @@ body {
   background-color: rgb(91, 91, 91);
   color: #fff;
 }
-body svg {
-  fill: #000;
+body nav {
+  background-color: rgb(66, 0, 99);
+}
+body footer {
+  background-color: rgb(66, 0, 99);
 }/*# sourceMappingURL=style.css.map */
