@@ -16,6 +16,19 @@
             }
         }
         teacher.sayHello();
+
+         //possiamo bypassare this accedendo a una variabile esterna -> RENDE IL CODICE INSTABILE
+         let user = {
+            name: "Jhon",
+            age: 30,
+
+            sayHi() {
+                alert(user.name);//accedo alla variabile esterna anziche this
+            }
+         };
+         let admin = user;
+         user = null; //sovrascrivo user
+         admin.sayHi(); //errore -> non possiamo leggere la proprieta name di null
     </script>
 </body>
 </html>
