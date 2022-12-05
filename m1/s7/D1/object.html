@@ -27,7 +27,21 @@
                 cap: 20100
             }
         }
+        //accedere alle proprietà di un oggetto
+        // dot notation oggetto.proprietà
+        var nome = persona.nome; //approccio più utilizzato, è più compatto, familiare con altri linguaggi
+        var nome = persona["nome"]; //altro approccio -> obbligatorio quando il nome della proprietà non segue le regole di naming
+        // se provo ad accedere a una proprietà non definita in un oggetto mi restituirà undefined
+        var eta = persona.eta; //undefined
+        
+        // creazione per definizione
+        // assegnamo un valore a una proprietà che non è definita nel nostro oggetto -> creiamo una proprietà inizializzandola con un valore
+        persona.eta = 42;
+        // oggetti sono entità dinamiche, possono evolvere/modificare durante l'esecuzione di uno script -> definizione incrementale
+        // l'oggetto avrà una rappresentazione di base che può essere arricchita via via con le proprietà che vogliamo
 
+        //metodi
+        //atività che un oggetto può compiere
     </script>
     
 </body>
