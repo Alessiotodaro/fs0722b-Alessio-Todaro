@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oggetti</title>
+</head>
+<body>
+    <!-- Tipi di dati orimitivi (stringhe, numeri...) ciò che non è dato primitivo è un oggetto
+    contenitore di dati eterogenei che forma una struttura dati unica
+    ogetto ->  dati detti proprietà -> coppie nome/valore 
+       ->  funzionalità dette metodi -> rappresentaati da funzioni
+    -->
+    <script>
+        var ogettoVuoto = {}; //dichiaro un oggetto vuoto -> notazioe letterale -> usa le parentesi graffe
+        var persona = {"nome": "Mario", "Cognome": "Rossi"} //inserisco delle proprietà cioè delle coppie nome:valore
+        var persona = {nome: "Mario", Cognome: "Rossi"} //i doppi apici sono opzionali perchè non contravvengono alle regole di naming 
+        var persona = {"primo-nome": "Mario", "secondo-nome": "Rossi"} //contravvengo alle regole di naming quindi devo usare ""
+        //una proprietà può avere come valore qualsiasi espressione derivante da un'espressione javascript COMPRESO un altro oggetto
+        var persona = {
+            nome: "Mario",
+            cognome: "Rossi",
+            Indirizzo: {
+                via: "Via Roma",
+                numero: 1,
+                cap: 20100
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
