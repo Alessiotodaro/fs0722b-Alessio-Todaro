@@ -42,6 +42,17 @@
 
         //metodi
         //atività che un oggetto può compiere
+        function  visualizzaNomeCognome() {return "Mario Rossi";} //una funziome che restituisce una stringa
+        persona.nomeCognome = visualizzaNomeCognome;//assegnamo il nome della funzione a una nuova proprietà dell'oggetto Persona
+        // assegnamo alla prorpietà la funziona tramite il suo nome ( non il risultato della chiamata alla funzione)
+        //la proprietà nomeCognome contiene una funzione e quindi è un metodo
+        var nomeCognome = persona.nomeCognome();//per eseguirla faccio riferimento ad esso con le () perchè è come una chiamata a function.
+        persona.nomeCognome = function() {return "Mario Rossi"} // metodo alternativo per eseguire la funzione
+
+        // questo metodo non è di grande utilità -> visualizza sempre la stessa stringa, anche se cambiassi il valore delle prorpietà
+        // un modo per visualizzare il valore corrente delle proprietà -> keyword this
+        persona.nomeCognome = function() {return this.nome + " " + this.cognome;} //restituisce i valori correnti delle priprietà.
+
     </script>
     
 </body>
