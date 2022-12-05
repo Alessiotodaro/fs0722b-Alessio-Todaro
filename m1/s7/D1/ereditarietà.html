@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ereditarietà</title>
+</head>
+<body>
+    <!-- possiamo modificare la struttura degli oggetti anche dopo la creazione-->
+    <script>
+        //var MarioRossi = new persona("Mario", "Rossi");
+        //var GiuseppeVerdi = new persona("Giuseppe", "Verdi");
+        //marioRossi.telefono = "0708309809435" //posso aggiungere all'oggetto qualcosa
+        // creo una nuova proprietà a Mario Rossi senza influenzare la struttura di Giuseppe Verdi 
+        //quando creo oggetti posso partire da una struttura di dati comune definita da un costruttore
+        // poi la possiamo personalizzare in base alle nostre esigenze
+        // prototype  -> persona.prototype.telefono = "90304975"
+        // tutti gli oggetti che avevamo creato col costruttore persona() ora hanno anche la proprietà telefono
+        function Student(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+        var studente1 = new Student("Luigi Bianchi", 43);
+        var studente2 = new Student("Mario Rossi", 32);
+        console.log(studente1,studente2);
+
+        Student.prototype.skills = [] //skills è accessibile come se fosse una proprietà dell'oggetto, il prototipo ha un riferimento ad un'altro oggetto
+
+        //console.log(studente1, studente2)
+        
+        studente1.skills = ["html", "css", "js"];
+        studente2.skilld = ["surfare", "ballare", "cantare"];
+
+        console.log(studente1, studente2)
+    </script>
+</body>
+</html>
