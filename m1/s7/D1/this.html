@@ -29,6 +29,13 @@
          let admin = user;
          user = null; //sovrascrivo user
          admin.sayHi(); //errore -> non possiamo leggere la proprieta name di null
+
+         //this -> può essere usata in qualsiasi funzione, anche se non è il metodo in oggetto
+         function sayHi() {
+            alert(this.name) //non restituisce alcun errore di sintassi -> viene valutato al momento dell'esecuzione e può avere un valore qualsiasi
+         }
+         sayHi(); //undefined -> anche in modalità strict. Se cerchiamo di acceder a this.name -> errore
+         // le arrow function non hanno this
     </script>
 </body>
 </html>
