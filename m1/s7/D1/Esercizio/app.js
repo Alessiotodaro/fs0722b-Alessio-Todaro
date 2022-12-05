@@ -11,8 +11,8 @@ let onSub = document.querySelector('.btn').addEventListener('click', function(){
     nuovaPersona.data = document.querySelector('.data').value
     function newTable(){
         let table = document.querySelector('.tab')
-        let app = table.innerHTML = "<tr>" + "<td>" + nuovaPersona.nome + "</td>" + "<td>" + nuovaPersona.cognome + "</td>" + "<td>" + nuovaPersona.data + "</td>" +"</tr>"
-        table.append(app)
+        table.innerHTML = `<tr><td> ${nuovaPersona.nome}</td><td>${nuovaPersona.cognome}</td><td>${nuovaPersona.data}</td></tr>`
+        table.append
     }
     newTable()
 })
