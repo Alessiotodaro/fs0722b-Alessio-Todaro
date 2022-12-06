@@ -19,6 +19,16 @@
                 return this.nome + " " + this.cognome;
             }
         }
+        //possiamo creare un nuovo oggetto a partire dalla classe
+        var marioRossi = new persona ("Mario", "Rossi");
+        //possiamo creare sottoclassi estendendo una classe
+        class programmatore extends persona {
+            constructor(nome, cognome) {
+                super(nome, cognome);
+                this.linguaggiConosciuti = [];
+            }
+        }
+        //extends consente di dichiarare che la nuova classe programmatore deriva dalla classe persona
     </script>
 </body>
 </html>
