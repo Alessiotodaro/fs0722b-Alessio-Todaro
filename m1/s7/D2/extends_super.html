@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        class Computer  {
+            constructor (brand) {
+                this.computername = brand
+            }
+            present(){
+                return "Ho un computer" + this.computername;
+            }
+        }
+        class Model extends Computer{
+            constructor(brand, mod) {
+                super(brand);
+                this.model = mod;
+            }
+            show() {
+                return this.present() + ", un " + this.model + ".";
+            }
+        }
+        myComputer = new Model("Samsung", "GalaxyBook");
+        document.getElementById("demo").innerHTML = myComputer.show()
+    </script>
+</body>
+</html>
