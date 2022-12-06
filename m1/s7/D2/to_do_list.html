@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="nuovoUtente"><button id="aggiungi">Aggiungi</button>
+    <ul id="listaUtenti"></ul>
+
+    <script>
+        let lista = document.querySelector('#listaUtenti');
+        let inputUser = document.querySelector('#nuovoUtente');
+        let aggiungi_btn = document.querySelector('#aggiungi');
+
+        let users = [];
+
+        aggiungi_btn.addEventListener('click', ()=> {
+            let usr = new User(inputUser.value);
+            users.push(usr)
+            writeInList();
+        });
+        function writeInList() {
+            lista.innerHTML = "";
+            users.forEach((el, index) => { //parametri di for each(valore corrente e indice (e array eventualmente))
+                lista.innerHTML += `<li>${el.logUser()}</li>`; 
+            })
+            console.log(users);
+        }
+
+        /*Class*/
+        class User {
+            name = "";
+            constructor(_name) {
+                this.name = _name;
+            }
+            logUser() {
+                return `<b>${this.name}</b>`
+            }
+        }
+    </script>
+</body>
+</html>
