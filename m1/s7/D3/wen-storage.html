@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        localStorage.nome = "Federico";             //salvo i dati come in un normale array associativo
+        localStorage.cognome = "De Ambrosis";
+        localStorage.setItem('nome', 'Federico');   // o con l'ausilio dei metodi dedicato
+        localStorage.getItem('nome');               // restituisce dei metodi dedicati
+        localStorage.ordini = Array("1","2","3");
+        localStorage.ordini;  //ritorna "1,2,3"
+        //se ho dati diversi da strighe devo ricorrere alla serializzazione su JSON
+        localStorage.ordini = JSON.stringify(Array(1,2,3));
+        JSON.parse(localStorage.ordini); // ritorna un array di tre elementi (1,2,3)
+       
+    </script>
+</body>
+</html>
