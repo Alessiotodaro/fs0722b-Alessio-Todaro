@@ -1,0 +1,59 @@
+{
+ "artista/i": "Pinguini Tattici Nucleari",
+ "album":[{
+
+
+    "album_1": "Fake News",
+    "discografia_fakeNews":[ 
+        {
+            "brano_1": "Zen",
+            "url": "https://www.pinguinitatticinucleari/Zen.it"
+        },
+        {
+            "brano_2": "Ricordi",
+            "url": "https://www.pinguinitatticinucleari/Ricordi.it"
+        },
+        {
+            "brano_3": "Zen",
+            "url": "https://www.pinguinitatticinucleari/Zen.it"
+        }
+    ],
+
+    "album_2": "Ahia!",
+    "discografia_ahia":[
+        {
+            "brano_1": "Scooby Doo",
+            "url": "https://www.pinguinitatticinucleari/ScoobyDoo.it"
+        },
+        {
+            "brano_2": "Scrivile Scemo",
+            "url": "https://www.pinguinitatticinucleari/ScrivileScemo.it"
+        },
+        {
+            "brano_3": "Pastello Bianco",
+            "url": "https://www.pinguinitatticinucleari/PastelloBianco.it"
+        },
+        {
+            "brano_4": "Giulia",
+            "url": "https://www.pinguinitatticinucleari/Giulia.it"
+        }
+    ],
+
+    "album_3": "Fuori dall'Hype",
+    "discografia_fuoriHype":[
+        {
+            "brano_1": "Antartide",
+            "url": "https://www.pinguinitatticinucleari/Antartide.it"
+        },
+        {
+            "brano_2": "Monopoli",
+            "url": "https://www.pinguinitatticinucleari/Monopoli.it"
+        },
+        {
+            "brano_3": "Scatole",
+            "url": "https://www.pinguinitatticinucleari/Scatole.it"
+        }
+    ] 
+    }
+]
+}
