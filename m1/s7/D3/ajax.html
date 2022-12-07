@@ -89,7 +89,25 @@
         // 1. resolved -> il valore è disponibile -> attività asincrona restituisce un valore
         // 2. rejected -> non viene restituito nessun valore
         // 3. pending -> nè risolta nè rigettata -> l'attività asincrona è partita ma non ha dato ancora risultati
+        var promise = new Promise(handler); //il parametro della promise ci permette di gestire il risultato
+        var promise = new Promise(function(resolve,reject) {  //due funzioni come parametri
+            if(condizione) {
+                resolve(valore);                    // invoco quando la promise è risolta
+            } else {
+                reject(motivo);                     // invoco quando la promise non è risolta
+            }
+        }) 
 
+        //promise e then
+        var myPromise = httpGet("/utente/123");
+        myPromise.then(                                                              //then                        
+            function(utente) {                                                       // eseguo in caso di promise risolta
+                console.log("il server ha risposto con l'utente" + utente.nome);
+            },
+            function(error) {                                                        // eseguo in caso di promise non risolta
+                console.log("Si è verificato un errore" + error.message);
+            }
+        )
     </script>
 </body>
 </html>
