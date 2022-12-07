@@ -12,8 +12,12 @@
         <h2>Memorizza i dati e li recupera</h2>
     </hgroup>
     <form action="" name="form_da_ricordare">
-        <button type="button" onclick="">Memorizza quanto scritto</button>
-        <button type="button" onclick="">Recupera quanto scritto</button>
+        <button type="button" onclick="salvaIlDato(this.form.elements['testo_da_ricordare'].value);">
+            Memorizza quanto scritto
+        </button>
+        <button type="button" onclick="recuperaIlDato(this.form.elements['testo_da_ricordare']);">
+            Recupera quanto scritto
+        </button>
         <label for="">Cosa hai in mente?</label>
         <textarea name="testo_da_ricordare" required autofocus placeholder="il testo da ricordare"></textarea>
 
