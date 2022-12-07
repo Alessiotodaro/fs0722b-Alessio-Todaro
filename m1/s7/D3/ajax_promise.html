@@ -12,17 +12,19 @@
 
     </ul>
     <script type="module">
-        import { asyncCalls } from './moduli/asyncCalls.js';
+        /*import { asyncCalls } from './moduli/asyncCalls.js';
         let AsyncCalls = new asyncCalls();
         AsyncCalls.ajaxCall('https://jsonplaceholder.typicode.com/todos/', 'get')
            .then((response) => {
             let res = JSON.parse(response);
             let LI = "";
             res.forEach(element => {
-                LI += `<li><b>${element.title}</b> [${element.completed}]</li>`
+                LI += `<li><b>${element.id}</b> [${element.title}]</li>`
             });
             document.querySelector("#lista").innerHTML = LI;
-        });
+        });*/
+        
+        
 
     </script>
 </body>

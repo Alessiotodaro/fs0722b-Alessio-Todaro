@@ -39,13 +39,13 @@
         arrayBuffer() restituisce un contenuto strutturato in arrayBuffer
     -->
     <script>
-        fetch("https://www.epicode.it/api/articoli/123").then(responde => {
+        fetch("https://www.epicode.it/api/articoli/123").then(response => {
             if(response.ok) {
                 return response.json();
             }
         }).then(articolo => console.log(articolo.titolo)).catch(error => console.log("Si è verificato un errore"))
         //di solito non ho soltanto la url nella richiesta ma devo specificare altri parametri 
-        fetc("http://www.epicode.it/api/articoli/123", {
+        fetch("http://www.epicode.it/api/articoli/123", {
             method: "post",
             headers: new Headers({
                 "Content-Type": "application/json"
