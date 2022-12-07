@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local_storage_2</title>
+</head>
+<body>
+    <div class="title"></div>
+    <input type="text" id="user">
+    <button id="log_btn" onclick="save()">Log</button>
+    <button id="delete_btn" onclick="deleteData()">Delete data</button>
+    <script>
+        window.addEventListener("load", check);
+        function save(){
+            user = document.querySelector("#user").value;
+            localStorage.setItem("user",user);
+            check();
+        }
+        function deleteData(){
+            localStorage.removeItem("user");
+            check()
+        }
+        function check(){
+            if(localStorage.getItem("user")){
+                text = "Ciao, " + localStorage.getItem("user");
+            }else{
+                text = "No data"
+            }
+            document.querySelector(".title").innerHTML = text
+        }
+    </script>
+</body>
+</html>
