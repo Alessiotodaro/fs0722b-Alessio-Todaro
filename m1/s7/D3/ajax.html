@@ -67,6 +67,29 @@
         }.then(....).catch(...);
            
         //funzione asincrone async/await
+        //eseguire operazioni asincrone in javascript
+        //1. Funzioni di callback (funzioni che vengono passate come parametri di altre funzioni)
+        //2. promise -> posso vedere lo stato di esecuzione di un attività
+        // async/await sono basate sul meccanismo delle promise e semplificano la sinstassi
+        //async dichiara una funziona asincrona
+        //await sospende l'esecuzione in attesa che la promise sia risolta ( o rigettata)
+
+        // try/catch
+        async function getUtente(UserId) {
+            try{
+                let response = await fetch("/utente/" + UserId);
+                console.log(response);
+            } catch {
+                console.log("Errore")
+            }
+        }
+
+        //promise
+        //tre stati possibili
+        // 1. resolved -> il valore è disponibile -> attività asincrona restituisce un valore
+        // 2. rejected -> non viene restituito nessun valore
+        // 3. pending -> nè risolta nè rigettata -> l'attività asincrona è partita ma non ha dato ancora risultati
+
     </script>
 </body>
 </html>

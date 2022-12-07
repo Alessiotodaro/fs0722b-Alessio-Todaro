@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async</title>
+</head>
+<body>
+    <script>
+        function startDelayed() {
+            return new Promise(resolve => {
+                setTimeout(() =>{
+                    resolve("it ends");
+                }, 5000);
+            });
+        }
+        async function asyncFunction(){         //async è una kkeyword che permette di dichiarare una funzione asincrona
+            console.log("start async");         //cioè una funzione che contiene un'operazione asincrona
+            let ends = await startDelayed();    //await sospende l'esecuzione in attesa che la promise associata venga risolta
+            console.log(ends);
+        }
+        asyncFunction()
+    </script>
+</body>
+</html>
