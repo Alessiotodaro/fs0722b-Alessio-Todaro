@@ -6,23 +6,18 @@ fetch('../user/users.json')
         ).then(
             function(res) {
 
+                let div = document.querySelector("#contenitor");
+            
              for(i = 0 ; i < res.length ; i++) {
-                   
-                    console.log(res[i].username, res[i].email, res[i].gender)
-
-                    let card = document.createElement('div');
-                    card.className = 'card';
+                
+                    let card = document.createElement("div"); 
             
-                    let cardBody = document.createElement('div');
-                    cardBody.className = 'card-body';
-            
-                    let username = document.createElement('h3');
-                    username.innerText = `${res[i].username}`;
-                    username.className = 'card-username';
+                    let username = document.createElement("h3");
+                    username.innerText = res[i].username;
+        
                     
-                    let email = document.createElement('h4');
-                    email.innerText = `${res[i].email}`;
-                    email.className = 'card-email';
+                    let email = document.createElement("h5");
+                    email.innerText = res[i].email;
             
                     let male = document.createElement('img');
                     male.setAttribute('src','../assets/male.png');
@@ -30,17 +25,9 @@ fetch('../user/users.json')
                     let feMale = document.createElement('img');
                     feMale.setAttribute('src','../assets/female.png'); 
 
-                    if(res[i].gender === "Male") {
-                        cardBody.appendChild(male);
-                    }else{
-                        cardBody.appendChild(feMale);
-                    }
-
-                    cardBody.appendChild(username);
-                    cardBody.appendChild(email);
-
-                    card.appendChild(cardBody);
-                
+                    card.appendChild(username);
+                    card.appendChild(email);   
+                    div.appendChild(card);           
                 }
             }
         )
