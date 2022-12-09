@@ -19,6 +19,7 @@ fetch('../user/users.json')
                     
                     let email = document.createElement("h5");
                     email.innerText = res[i].email;
+                    email.className ="email";
             
                     let male = document.createElement('img');
                     male.setAttribute('src','../assets/male.png');
