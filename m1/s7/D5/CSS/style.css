@@ -1,4 +1,10 @@
-.card {
-  background-color: green;
+#contenitor {
+  display: flex;
+  justify-content: space-around;
+}
+#contenitor .card {
   width: 25%;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }/*# sourceMappingURL=style.css.map */
