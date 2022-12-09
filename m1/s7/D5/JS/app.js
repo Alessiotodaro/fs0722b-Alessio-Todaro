@@ -12,6 +12,10 @@ fetch('../user/users.json')
                 
                     let card = document.createElement("div");
                     card.className = "card";
+
+                    let img = document.createElement("img");
+                    img.setAttribute('src', res[i].profileURL);
+                    img.className = "image";
             
                     let username = document.createElement("h3");
                     username.innerText = res[i].username;
@@ -19,14 +23,9 @@ fetch('../user/users.json')
                     
                     let email = document.createElement("h5");
                     email.innerText = res[i].email;
-                    email.className ="email";
-            
-                    let male = document.createElement('img');
-                    male.setAttribute('src','../assets/male.png');
-                    
-                    let feMale = document.createElement('img');
-                    feMale.setAttribute('src','../assets/female.png'); 
+                    email.className = "email";
 
+                    card.append(img)
                     card.appendChild(username);
                     card.appendChild(email);   
                     div.appendChild(card);           
