@@ -7,11 +7,14 @@ function start() {
     var ins = document.querySelector(".inserisciTesto");
     if (y == randomNumber) {
         ins.innerHTML = "Il ".concat(y, " \u00E8 uguale al numero casuale");
+        ins.classList.add("scritta");
     }
     else if (x == randomNumber) {
         ins.innerHTML = "Il ".concat(x, " \u00E8 uguale al numero casuale");
+        ins.classList.add("scritta");
     }
     else {
-        ins.innerHTML = "I numeri inseriti non sono uguali al numero random. Numero Random = ".concat(randomNumber);
+        ins.innerHTML = "I numeri inseriti non sono uguali al numero random.<br> Numero Random = ".concat(randomNumber);
+        ins.classList.add("scritta");
     }
 }

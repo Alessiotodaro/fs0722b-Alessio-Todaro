@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <input type="number" id="input">
-    <input type="number" id="input2">
-    <button type="submit" onclick="start()">Invia</button>
-    
-    <p class="inserisciTesto"></p>
 
-    <script src="intro.js"></script>
+<div class="container">
+    <input type="number" id="input" placeholder="Inserisci primo numero">
+    <input type="number" id="input2" placeholder="Inserisci secondo numero">
+    <button type="submit" onclick="start()">Invia</button>
+</div>
+<div class="risultato">
+    <h1>Inserisci 2 numeri per scoprire se hai indovinato il numero random!</h1>
+    <p class="inserisciTesto"></p>
+</div>
+
+    
+
+<script src="intro.js"></script>
 </body>
 </html>

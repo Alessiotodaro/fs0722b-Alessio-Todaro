@@ -10,10 +10,13 @@ function start(){
 
     if(y == randomNumber){
         ins.innerHTML =  `Il ${y} è uguale al numero casuale`
+        ins.classList.add("scritta")
     }else if(x == randomNumber){
         ins.innerHTML =  `Il ${x} è uguale al numero casuale`
+        ins.classList.add("scritta")
     }else {
-        ins.innerHTML = `I numeri inseriti non sono uguali al numero random. Numero Random = ${randomNumber}`
+        ins.innerHTML = `I numeri inseriti non sono uguali al numero random.<br> Numero Random = ${randomNumber}`
+        ins.classList.add("scritta")
     }
 }
 

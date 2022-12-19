@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(73, 45, 255);
+}
+body .container {
+  background-color: rgb(45, 192, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+body .container input {
+  margin: 20px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+body .container input::-moz-placeholder {
+  padding-left: 15px;
+}
+body .container input:-ms-input-placeholder {
+  padding-left: 15px;
+}
+body .container input::placeholder {
+  padding-left: 15px;
+}
+body .container button {
+  margin: 20px;
+  height: 30px;
+  width: 100px;
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+body h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .scritta {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=style.css.map */
