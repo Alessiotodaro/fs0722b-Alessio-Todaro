@@ -8,13 +8,16 @@
 </head>
 <body>
     <h2>Account Madre</h2>
-    <input type="text" placeholder="deposito" class="depositoMadre">
-    <input type="text" placeholder="prelievo" class="prelievoMadre">
+    <input type="number" placeholder="Inserisci Importo" class="Importo" id="importo">
+    
+    <button onclick="account.oneDeposit()">Deposita</button>
+    <button onclick="account.oneWithDraw()">Preleva</button>
+    <button onclick="madre.addInterest()">Interessi 10 %</button>
     <p id="madre"></p>
 
     <h2>Account Figlio</h2>
-    <input type="text" placeholder="deposito">
-    <input type="text" placeholder="prelievo">
+    <button onclick="oneDeposit()">Deposita</button>
+    <button onclick="oneWithDraw()">Preleva</button>
     <p id="figlio"></p>
     <script src="app.js"></script>
 </body>
