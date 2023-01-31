@@ -32,17 +32,35 @@ public class teoriad2 {
 		Rettangolo area = new Rettangolo(larghezza,altezza);
 		
 		System.out.println("L'area del rettangolo inserito è " + area.area() + " cm");
+		
 		System.out.println("Adesso calcoliamo il perimetro. Inserisci il primo lato lungo: ");
 		int latoLungo = sc.nextInt();
+		
 		System.out.println("Adesso inserisci il lato corto: ");
 		int latoCorto = sc.nextInt();
-		
 		Rettangolo perimetro = new Rettangolo (latoCorto,latoLungo);
 		if (latoLungo < latoCorto) {
 			System.out.println("Il lato lungo deve essere maggiore di quello corto");
 		}else {
 		System.out.println("Il perimetro del rettangolo inserito è: " + perimetro.perimetro() + " cm");
 		}
+		
+		Sim sim1 = new Sim(32878, 0, 0);
+		System.out.println("Inserisci il numero 1 per visualizzare il numero sim. Inserisci numero 2 per visualizzare credito. Inserisci numero 3 per ultime telefonate");
+		int scelta = sc.nextInt();
+		if(scelta == 1) {
+			System.out.println(sim1.showNumber());
+		}else if (scelta == 2) {
+			System.out.println(sim1.showCredit());
+		}else if(scelta == 3) {
+			System.out.println(sim1.showLastCall());
+		}else {
+			System.out.println("Inserisci un numero da 1 a 3 per scegliere l'informazione giusta");
+		}
+		
 	}
+		
+		
+	
 
 }
